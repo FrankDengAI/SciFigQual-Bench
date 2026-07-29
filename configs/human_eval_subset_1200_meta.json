@@ -1,0 +1,44 @@
+{
+  "built_at": "2026-07-08T13:47:18.530769+00:00",
+  "source": "C:\\Users\\Administrator\\Desktop\\悉尼大学Techbenchmark\\1. SciFigQual-Bench\\ccf-paper-figures-viewable\\human_annotations_consolidated.jsonl",
+  "selection_method": "deterministic-v1",
+  "selection_rule": "sorted (venue, year, paper_id); paper-level all-or-nothing; no randomness",
+  "figure_count": 1200,
+  "annotation_count": 3939,
+  "paper_count": 254,
+  "annotator_count_distribution": {
+    "3": 1081,
+    "4": 64,
+    "6": 1,
+    "7": 1,
+    "8": 50,
+    "9": 3
+  },
+  "venue_distribution": {
+    "ACL": 266,
+    "EMNLP": 294,
+    "ICML": 294,
+    "NeurIPS": 346
+  },
+  "year_distribution": {
+    "2020": 155,
+    "2021": 140,
+    "2022": 197,
+    "2023": 190,
+    "2024": 272,
+    "2025": 246
+  },
+  "with_context_figures": 625,
+  "without_context_figures": 575,
+  "with_context_ratio": 0.5208,
+  "human_gold_standard": {
+    "join_key": [
+      "paper_id",
+      "fig_index"
+    ],
+    "aggregation": "mean over annotations[] for each dimension and overall_score",
+    "annotator_filter": "none (all annotators in consolidated pool)"
+  },
+  "target_figures": 1200,
+  "output_dir": "C:\\Users\\Administrator\\Desktop\\悉尼大学Techbenchmark\\1. SciFigQual-Bench\\datasets\\eval1200"
+}

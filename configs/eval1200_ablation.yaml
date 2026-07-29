@@ -1,0 +1,213 @@
+subset: configs/human_eval_subset_1200.jsonl
+output_root: outputs/benchmark_eval1200
+stage: clean
+batch_mode: paper
+skip_upload: true
+dry_run: true
+
+runs:
+  # ── Direct Judge (D1–D11) ─────────────────────────────────────────────────
+  - id: D1
+    phase: direct
+    protocol: baseline
+    provider: gemini
+    model: gemini-2.5-flash
+    api_calls_per_fig: 1
+
+  - id: D2
+    phase: direct
+    protocol: baseline
+    provider: openai
+    model: gpt-4o
+    api_calls_per_fig: 1
+
+  - id: D3
+    phase: direct
+    protocol: baseline
+    provider: claude
+    model: claude-sonnet-4-5
+    api_calls_per_fig: 1
+
+  - id: D4
+    phase: direct
+    protocol: baseline
+    provider: qwen
+    model: qwen-vl-max
+    api_calls_per_fig: 1
+
+  - id: D5
+    phase: direct
+    protocol: baseline
+    provider: glm
+    model: glm-4.6v
+    api_calls_per_fig: 1
+
+  - id: D6
+    phase: direct
+    protocol: baseline
+    provider: doubao
+    model: doubao-seed-2-0-pro-260215
+    api_calls_per_fig: 1
+
+  - id: D7
+    phase: direct
+    protocol: baseline
+    provider: llama
+    model: llama-4-maverick
+    api_calls_per_fig: 1
+
+  - id: D8
+    phase: direct
+    protocol: baseline
+    provider: openai
+    model: pixtral-large
+    api_calls_per_fig: 1
+
+  - id: D9
+    phase: direct
+    protocol: baseline
+    provider: openai
+    model: nova-pro
+    api_calls_per_fig: 1
+
+  - id: D10
+    phase: direct
+    protocol: baseline
+    provider: claude
+    model: claude-opus-4-8
+    api_calls_per_fig: 1
+
+  - id: D11
+    phase: direct
+    protocol: baseline
+    provider: internvl
+    model: internvl3-78b
+    api_calls_per_fig: 1
+
+  # ── Sidecar Judge (S1–S9) ─────────────────────────────────────────────────
+  - id: S1
+    phase: sidecar
+    protocol: with_features
+    provider: gemini
+    model: gemini-2.5-flash
+    api_calls_per_fig: 1
+
+  - id: S2
+    phase: sidecar
+    protocol: with_features
+    provider: openai
+    model: gpt-4o
+    api_calls_per_fig: 1
+
+  - id: S3
+    phase: sidecar
+    protocol: with_features
+    provider: qwen
+    model: qwen-vl-max
+    api_calls_per_fig: 1
+
+  - id: S4
+    phase: sidecar
+    protocol: with_features
+    provider: glm
+    model: glm-4.6v
+    api_calls_per_fig: 1
+
+  - id: S5
+    phase: sidecar
+    protocol: with_features
+    provider: doubao
+    model: doubao-seed-2-0-pro-260215
+    api_calls_per_fig: 1
+
+  - id: S6
+    phase: sidecar
+    protocol: with_features
+    provider: llama
+    model: llama-4-maverick
+    api_calls_per_fig: 1
+
+  - id: S7
+    phase: sidecar
+    protocol: with_features
+    provider: openai
+    model: pixtral-large
+    api_calls_per_fig: 1
+
+  - id: S8
+    phase: sidecar
+    protocol: with_features
+    provider: openai
+    model: nova-pro
+    api_calls_per_fig: 1
+
+  - id: S9
+    phase: sidecar
+    protocol: with_features
+    provider: internvl
+    model: internvl3-78b
+    api_calls_per_fig: 1
+
+  # ── SFQ-Agent (F1–F9) ───────────────────────────────────────────────────
+  - id: F1
+    phase: agent
+    protocol: agent
+    vlm: {provider: gemini, model: gemini-2.5-flash}
+    llm: {provider: gemini, model: gemini-2.5-flash}
+    api_calls_per_fig: 3
+
+  - id: F2
+    phase: agent
+    protocol: agent
+    vlm: {provider: gemini, model: gemini-2.5-pro}
+    llm: {provider: gemini, model: gemini-2.5-pro}
+    api_calls_per_fig: 3
+
+  - id: F3
+    phase: agent
+    protocol: agent
+    vlm: {provider: openai, model: gpt-4o}
+    llm: {provider: openai, model: gpt-4o}
+    api_calls_per_fig: 3
+
+  - id: F4
+    phase: agent
+    protocol: agent
+    vlm: {provider: claude, model: claude-sonnet-4-5}
+    llm: {provider: claude, model: claude-sonnet-4-5}
+    api_calls_per_fig: 3
+
+  - id: F5
+    phase: agent
+    protocol: agent
+    vlm: {provider: qwen, model: qwen-vl-max}
+    llm: {provider: qwen, model: qwen-plus}
+    api_calls_per_fig: 3
+
+  - id: F6
+    phase: agent
+    protocol: agent
+    vlm: {provider: glm, model: glm-4.6v}
+    llm: {provider: glm, model: glm-4.6v}
+    api_calls_per_fig: 3
+
+  - id: F7
+    phase: agent
+    protocol: agent
+    vlm: {provider: llama, model: llama-4-maverick}
+    llm: {provider: llama, model: llama-4-maverick}
+    api_calls_per_fig: 3
+
+  - id: F8
+    phase: agent
+    protocol: agent
+    vlm: {provider: claude, model: claude-opus-4-8}
+    llm: {provider: claude, model: claude-opus-4-8}
+    api_calls_per_fig: 3
+
+  - id: F9
+    phase: agent
+    protocol: agent
+    vlm: {provider: openai, model: nova-pro}
+    llm: {provider: openai, model: nova-pro}
+    api_calls_per_fig: 3

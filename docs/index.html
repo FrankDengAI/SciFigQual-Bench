@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SciFigQual-Bench — Scientific Figure Quality Assessment</title>
+  <meta name="description" content="SciFigQual-Bench: a full-manuscript-context benchmark for evaluating published CS figures across five quality dimensions, with SFQ-Agent staged judging." />
+  <meta property="og:title" content="SciFigQual-Bench" />
+  <meta property="og:description" content="Full-manuscript-context benchmark for scientific figure quality. 6,308 gold ratings · eval1200 · SFQ-Agent MAE 0.418." />
+  <meta property="og:image" content="assets/img/fig3_agent.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#top">SciFigQual<span>-Bench</span></a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu">☰</button>
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#benchmark">Benchmark</a>
+        <a href="#dimensions">Rubric</a>
+        <a href="#pipeline">Pipeline</a>
+        <a href="#agent">SFQ-Agent</a>
+        <a href="#results">Results</a>
+        <a href="#cite">Cite</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">Full-manuscript figure quality</div>
+          <h1>SciFigQual<em>-Bench</em></h1>
+          <p class="hero-lead">
+            A benchmark for assessing <strong>published CS scientific figures</strong> with caption and citing-paragraph context—
+            not isolated crops. Five orthogonal scores on a unified 1–10 scale, plus an auditable staged judge: <strong>SFQ-Agent</strong>.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://github.com/FrankDengAI/SciFigQual-Bench" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+            <a class="btn btn-ghost" href="https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench" target="_blank" rel="noopener noreferrer">Dataset (HF)</a>
+            <a class="btn btn-ghost" href="#results">eval1200 Results</a>
+          </div>
+          <div class="meta-pills">
+            <span class="pill">ACL · EMNLP · ICML · NeurIPS</span>
+            <span class="pill">2020–2025</span>
+            <span class="pill">Tri-modal: image · caption · context</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <img
+              src="./assets/img/fig1_gap.jpg"
+              alt="From isolated-figure evaluation to full-manuscript context binding"
+              width="1200"
+              height="825"
+              data-zoom
+              data-check
+              decoding="async"
+            />
+          </div>
+          <div class="hero-badge">
+            <strong>5-dim</strong>
+            <span>VC · SL · CC · CTX · MR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="protocol-ribbon">
+          <article class="protocol-step reveal">
+            <div class="step-id">Protocol 1</div>
+            <h3>Direct</h3>
+            <p>Single VLM pass over figure + caption + citing text.</p>
+          </article>
+          <article class="protocol-step reveal d1">
+            <div class="step-id">Protocol 2</div>
+            <h3>Sidecar</h3>
+            <p>Same call, plus OCR/CV side features for denser visual cues.</p>
+          </article>
+          <article class="protocol-step best reveal d2">
+            <div class="step-id">Protocol 3 · Best</div>
+            <h3>SFQ-Agent</h3>
+            <p>Staged vision / language / fusion + deterministic Runner.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="benchmark">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Benchmark at a glance</h2>
+          <p>Scale that matches top-conference figure assessment—with gold labels bound to real manuscript evidence.</p>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card reveal">
+            <div class="num" data-count="7609">0</div>
+            <div class="label">Curated figures</div>
+          </article>
+          <article class="stat-card reveal d1">
+            <div class="num" data-count="6308">0</div>
+            <div class="label">Human gold instances</div>
+          </article>
+          <article class="stat-card reveal d2">
+            <div class="num" data-count="1200">0</div>
+            <div class="label">Public test split eval1200</div>
+          </article>
+          <article class="stat-card reveal d3">
+            <div class="num" data-count="355k">0</div>
+            <div class="label">Citing-paragraph records</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="dimensions">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Five-dimensional rubric</h2>
+          <p>Each dimension is scored on [1, 10] with L1 evidence gating: missing caption hides CC; missing citing text hides CTX—never penalize absent metadata as “low quality”.</p>
+        </div>
+        <div class="dim-grid">
+          <article class="dim-card reveal">
+            <div class="dim-code">VC</div>
+            <h3>Visual Clarity</h3>
+            <p>Legibility of text, marks, and encoding at publication scale.</p>
+          </article>
+          <article class="dim-card reveal d1">
+            <div class="dim-code">SL</div>
+            <h3>Structure &amp; Layout</h3>
+            <p>Panel organization, reading path, and chartjunk control.</p>
+          </article>
+          <article class="dim-card reveal d2">
+            <div class="dim-code">CC</div>
+            <h3>Caption Consistency</h3>
+            <p>Does the caption match visible objects, metrics, and trends?</p>
+          </article>
+          <article class="dim-card reveal d3">
+            <div class="dim-code">CTX</div>
+            <h3>Context Consistency</h3>
+            <p>Do citing paragraphs claim only what the figure supports?</p>
+          </article>
+          <article class="dim-card reveal d4">
+            <div class="dim-code">MR</div>
+            <h3>Misleading Risk</h3>
+            <p>Higher = lower risk: axes, baselines, unfair comparisons.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pipeline">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>From PDFs to gold labels</h2>
+          <p>A deterministic construction funnel: acquire → extract → bind context → annotate → package eval1200.</p>
+        </div>
+
+        <div class="figure-block reveal">
+          <div>
+            <div class="fig-media">
+              <img
+                src="./assets/img/fig2_pipeline.jpg"
+                alt="SciFigQual-Bench construction pipeline"
+                width="1200"
+                height="700"
+                loading="lazy"
+                data-zoom
+                data-check
+                decoding="async"
+              />
+            </div>
+            <p class="fig-cap">Fig. 2 — Construction pipeline (click to enlarge)</p>
+          </div>
+          <div class="fig-copy">
+            <h3>Construction pipeline</h3>
+            <p>62,694 raw PDFs from OpenReview, ACL Anthology, and PMLR are curated into 7,609 figures with index-driven citing paragraphs.</p>
+            <ul>
+              <li>Structure-aware extraction (Marker + curation S1–S5)</li>
+              <li>Figure-index context binding (~355k records)</li>
+              <li>Expert five-dimensional annotation + adjudication</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="figure-block reverse reveal">
+          <div class="fig-copy">
+            <h3>Corpus statistics</h3>
+            <p>Venue–topic coverage, domain mix (NLP / ML / CV), temporal span 2020–2025, and per-dimension means. Caption consistency remains the weakest axis—motivating manuscript-grounded CC/CTX evaluation.</p>
+            <ul>
+              <li>Mean overall ≈ 8.05 on rated figures</li>
+              <li>Balanced ACL / EMNLP / ICML / NeurIPS splits</li>
+              <li>eval1200: 300 figures × 4 venues</li>
+            </ul>
+          </div>
+          <div>
+            <div class="fig-media">
+              <img
+                src="./assets/img/fig4_stats.jpg"
+                alt="Dataset statistics of SciFigQual-Bench"
+                width="1200"
+                height="700"
+                loading="lazy"
+                data-zoom
+                data-check
+                decoding="async"
+              />
+            </div>
+            <p class="fig-cap">Fig. 4 — Dataset statistics (click to enlarge)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="agent">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>SFQ-Agent: evidence before scores</h2>
+          <p>Monolithic VLMs conflate perception with text verification. SFQ-Agent separates modalities, then fuses only where needed.</p>
+        </div>
+        <div class="figure-block reveal">
+          <div>
+            <div class="fig-media">
+              <img
+                src="./assets/img/fig3_agent.jpg"
+                alt="SFQ-Agent scoring pipeline"
+                width="1200"
+                height="700"
+                loading="lazy"
+                data-zoom
+                data-check
+                decoding="async"
+              />
+            </div>
+            <p class="fig-cap">Fig. 3 — SFQ-Agent staged judging (click to enlarge)</p>
+          </div>
+          <div class="fig-copy">
+            <h3>Staged judging</h3>
+            <ul>
+              <li><strong>Vision</strong> locks VC / SL from the figure</li>
+              <li><strong>Language</strong> extracts claims from caption &amp; citing text (no pixels)</li>
+              <li><strong>Fusion</strong> scores CC / CTX / MR from both evidence reports</li>
+              <li><strong>Runner</strong> applies ownership, caps, and deterministic MR mapping</li>
+            </ul>
+            <p>Compared against <strong>Direct</strong> and <strong>Sidecar</strong> (+ OCR) on identical inputs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="results">
+      <div class="container">
+        <div class="results reveal">
+          <div class="results-inner">
+            <div>
+              <h2>eval1200 leaderboard highlight</h2>
+              <p>
+                29 protocol–backend configurations. Best overall: <strong>SFQ-Agent (F3)</strong> with GPT-5.6-Sol—
+                lowest MAE and highest within-±1 agreement versus human gold. Gains come from protocol–evidence alignment, not model scale alone.
+              </p>
+              <div class="cta-row">
+                <a class="btn btn-primary" href="https://github.com/FrankDengAI/SciFigQual-Bench" target="_blank" rel="noopener noreferrer">Browse code &amp; configs</a>
+                <a class="btn btn-ghost btn-on-dark" href="https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench" target="_blank" rel="noopener noreferrer">Get the data</a>
+              </div>
+            </div>
+            <div class="result-metrics">
+              <div class="metric">
+                <div class="v" data-count="0.418">0</div>
+                <div class="k">Overall MAE ↓ (F3)</div>
+              </div>
+              <div class="metric">
+                <div class="v" data-count="93.4%">0%</div>
+                <div class="k">Within-1 agreement ↑</div>
+              </div>
+              <div class="metric">
+                <div class="v" data-count="0.598">0</div>
+                <div class="k">Spearman SRCC ↑</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cite">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Citation</h2>
+          <p>If you use SciFigQual-Bench or SFQ-Agent, please cite:</p>
+        </div>
+        <div class="cite-box reveal">
+          <button class="copy-btn" id="copy-cite" type="button">Copy</button>
+          <pre id="citation">@article{scifigqual2026,
+  title={SciFigQual-Bench: A Benchmark for Scientific Figure Quality Assessment with Full-Manuscript Context},
+  author={Deng, Zihan and Xu, Chuanzhi and Liang, Huiqi and Li, Haoyang and Zhong, Xiaozhen and Yu, Lequan},
+  year={2026}
+}</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <div>© SciFigQual-Bench authors · MIT License</div>
+      <div>
+        <a href="https://github.com/FrankDengAI/SciFigQual-Bench" target="_blank" rel="noopener noreferrer">Code</a>
+        ·
+        <a href="https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench" target="_blank" rel="noopener noreferrer">Dataset</a>
+        ·
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Figure preview">
+    <button class="lightbox-close" type="button" aria-label="Close">×</button>
+    <img id="lightbox-img" alt="" />
+  </div>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
