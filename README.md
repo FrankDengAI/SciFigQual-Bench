@@ -12,7 +12,7 @@
 <p align="center"><em>SFQ-Agent: L1 gating, parallel vision/language evidence, cross-modal judge, and deterministic Runner aggregation.</em></p>
 
 ---
-The data is in: https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench
+The data is coming soon！
 ## Table of Contents
 
 - [Key Highlights](#key-highlights)
