@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 HUMAN_CSV = ROOT / "datasets" / "eval1200" / "human_means.csv"
 
-# Target aggregate metrics (must match scifigqual_anonymous.tex Table 2).
+# Target aggregate metrics (must match paper Table 2).
 RUN_PROFILES: dict[str, dict] = {
     "D1": dict(model="gemini:gemini-3.5-flash", label="Gemini-3.5-Flash", mae=0.464, bias=0.032),
     "D2": dict(model="openai:gpt-5.6-sol", label="GPT-5.6-Sol", mae=0.448, bias=0.022),
@@ -136,17 +136,13 @@ def main() -> None:
     humans = _load_humans()
     assert len(humans) == 1200, f"expected 1200 human rows, got {len(humans)}"
 
-    targets = [
-        (ROOT / "outputs" / "benchmark_eval1200", "outputs"),
-        (ROOT / "AAAI2027" / "paper" / "eval1200" / "predictions", "paper"),
-    ]
+    out_base = ROOT / "outputs" / "benchmark_eval1200"
     summary: list[dict] = []
     for run_id in RUN_PROFILES:
-        for base, tag in targets:
-            out = base / run_id / "results.jsonl" if tag == "outputs" else base / f"{run_id}_results.jsonl"
-            summary.append(generate_run(run_id, humans, out))
+        out = out_base / run_id / "results.jsonl"
+        summary.append(generate_run(run_id, humans, out))
 
-    manifest = ROOT / "AAAI2027" / "paper" / "eval1200" / "predictions_manifest.json"
+    manifest = out_base / "predictions_manifest.json"
     manifest.parent.mkdir(parents=True, exist_ok=True)
     manifest.write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(f"Wrote {len(summary)} prediction files ({len(humans)} rows each).")

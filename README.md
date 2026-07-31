@@ -27,7 +27,6 @@ The data is in: https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench
 - [Quick Start](#quick-start)
 - [Repository Layout](#repository-layout)
 - [Related Releases](#related-releases)
-- [Citation](#citation)
 - [License](#license)
 
 ---
@@ -250,7 +249,7 @@ Pre-computed predictions for all 29 runs ship in the companion **supporting mate
 ### Regenerate README figures from paper PDFs
 
 ```bash
-python scripts/export_readme_figures.py --paper-dir ../../AAAI2027/paper
+python scripts/export_readme_figures.py --paper-dir /path/to/paper
 ```
 
 ---
@@ -291,28 +290,6 @@ Companion paths in the monorepo upload layout:
 
 ---
 
-## Citation
-
-If you use SciFigQual-Bench, please cite:
-
-```bibtex
-@inproceedings{scifigqual2027,
-  title     = {SciFigQual-Bench: A Benchmark for Scientific Figure Quality Assessment with Full-Manuscript Context},
-  author    = {Anonymous},
-  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  year      = {2027},
-  note      = {Under review}
-}
-```
-
----
-
 ## License
 
 Released under the **MIT License**. See companion dataset card for data terms.
-
----
-
-<p align="center">
-  <sub>Anonymous submission · AAAI 2027 · SciFigQual-Bench</sub>
-</p>

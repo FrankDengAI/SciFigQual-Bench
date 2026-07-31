@@ -7,7 +7,6 @@ import argparse
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_PAPER_DIR = ROOT.parents[1] / "AAAI2027" / "paper"
 OUT_DIR = ROOT / "docs" / "figures"
 
 EXPORTS = [
@@ -50,8 +49,8 @@ def main() -> None:
     parser.add_argument(
         "--paper-dir",
         type=Path,
-        default=DEFAULT_PAPER_DIR,
-        help=f"Directory containing Fig2.pdf … Fig4.pdf (default: {DEFAULT_PAPER_DIR})",
+        required=True,
+        help="Directory containing Fig2.pdf … Fig4.pdf",
     )
     parser.add_argument("--dpi", type=int, default=200)
     parser.add_argument("--max-width", type=int, default=2000)

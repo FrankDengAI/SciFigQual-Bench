@@ -373,11 +373,11 @@ def _replace_latex_block(text: str, section_marker: str, new_block: str) -> str:
 
 
 def _update_table1_latex(text: str) -> str:
-    return _replace_latex_block(text, "2.2 LaTeX 源码（投稿直接粘贴）", _render_table1_latex())
+    return _replace_latex_block(text, "2.2 LaTeX 源码", _render_table1_latex())
 
 
 def _update_table2_latex(text: str) -> str:
-    return _replace_latex_block(text, "3.2 LaTeX 源码（投稿直接粘贴）", _render_table2_latex())
+    return _replace_latex_block(text, "3.2 LaTeX 源码", _render_table2_latex())
 
 
 def _manifest_rows() -> list[dict]:
@@ -531,7 +531,7 @@ def main() -> None:
 
     note = (
         "<!-- synthetic-tables --> 表内未实测单元格为基于行业共识排序的合成估计值，"
-        "正式投稿前请替换为实测结果。"
+        "请在最终版本前替换为实测结果。"
     )
     if "synthetic-tables" not in text:
         text = text.replace(

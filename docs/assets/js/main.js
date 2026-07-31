@@ -133,23 +133,6 @@
     if (e.key === "Escape") closeLb();
   });
 
-  // Copy citation
-  const btn = document.getElementById("copy-cite");
-  const pre = document.getElementById("citation");
-  btn?.addEventListener("click", async () => {
-    try {
-      await navigator.clipboard.writeText((pre?.textContent || "").trim());
-      btn.textContent = "Copied";
-      btn.classList.add("ok");
-      setTimeout(() => {
-        btn.textContent = "Copy";
-        btn.classList.remove("ok");
-      }, 1500);
-    } catch {
-      btn.textContent = "Select text";
-    }
-  });
-
   // Quiet unused lint
   void BASE;
 })();
