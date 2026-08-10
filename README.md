@@ -6,7 +6,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-SciFigQual--Bench-ffcc4d)](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench)
-[![eval1200](https://img.shields.io/badge/eval1200-MAE%200.418-0e7c66)](https://arxiv.org/abs/2607.27084)
 
 [Overview](#overview) · [Highlights](#highlights) · [Benchmark](#benchmark-at-a-glance) · [SFQ-Agent](#sfq-agent) · [Installation](#installation) · [Data](#data) · [Scoring](#scoring) · [Evaluation](#evaluation) · [Citation](#citation)
 
