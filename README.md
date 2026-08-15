@@ -11,7 +11,7 @@
 
 ---
 
-Scientific figure quality in peer review is **tri-modal**: reviewers cross-check the figure \(I\), the caption \(c\), and the citing paragraphs \(\mathcal{T}\). Natural IQA, AIGC alignment, and chart QA typically score **isolated** visuals without manuscript evidence.
+Scientific figure quality in peer review is **tri-modal**: reviewers cross-check the figure \(I\), the caption \(c\), and the citing paragraphs \(T\). Natural IQA, AIGC alignment, and chart QA typically score **isolated** visuals without manuscript evidence.
 
 **SciFigQual-Bench** binds each published CS figure to full-manuscript context and scores five orthogonal dimensions on a unified 1–10 scale. **SFQ-Agent** collects vision and language evidence in stages, then fuses them with a cross-modal judge for auditable, rubric-aligned scores.
 
