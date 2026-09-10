@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import io
 import json
@@ -10,7 +10,7 @@ import typer
 from dotenv import load_dotenv
 from huggingface_hub import HfApi
 
-REPO_ID = "ccf-team/ccf-paper-figures"
+REPO_ID = "ANONYMIZED_HF_DATASET_REPO"
 HF_BASE = f"hf://datasets/{REPO_ID}"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ENV_PATH = REPO_ROOT / ".env"

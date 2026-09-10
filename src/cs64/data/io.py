@@ -1,4 +1,4 @@
-"""Shared local/Hugging Face data loading helpers."""
+﻿"""Shared local/Hugging Face data loading helpers."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ try:
 except ModuleNotFoundError:  # pragma: no cover - optional convenience dependency
     load_dotenv = None
 
-DEFAULT_HF_REPO_ID = "ccf-team/ccf-paper-figures"
+DEFAULT_HF_REPO_ID = "ANONYMIZED_HF_DATASET_REPO"
 
 
 def load_project_env(project_root: Path | None = None) -> None:

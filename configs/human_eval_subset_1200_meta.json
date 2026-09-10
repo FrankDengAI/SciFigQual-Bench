@@ -1,6 +1,6 @@
 {
   "built_at": "2026-07-08T13:47:18.530769+00:00",
-  "source": "C:\\Users\\Administrator\\Desktop\\悉尼大学Techbenchmark\\1. SciFigQual-Bench\\ccf-paper-figures-viewable\\human_annotations_consolidated.jsonl",
+  "source": "ANONYMIZED_INTERNAL_ANNOTATION_POOL",
   "selection_method": "deterministic-v1",
   "selection_rule": "sorted (venue, year, paper_id); paper-level all-or-nothing; no randomness",
   "figure_count": 1200,
@@ -40,5 +40,5 @@
     "annotator_filter": "none (all annotators in consolidated pool)"
   },
   "target_figures": 1200,
-  "output_dir": "C:\\Users\\Administrator\\Desktop\\悉尼大学Techbenchmark\\1. SciFigQual-Bench\\datasets\\eval1200"
+  "output_dir": "datasets/eval1200"
 }

@@ -1,0 +1,3 @@
+eval1200: 1,200 figures (full JSONL) + selected original PNG crops.
+Join key: figure_id or (paper_id, fig_index).
+Human gold: mean over anonymized annotations[] per dimension; overall is L1-gated.

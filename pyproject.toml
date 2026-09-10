@@ -1,7 +1,7 @@
-[project]
-name = "cs64"
+﻿[project]
+name = "scifigqual-bench"
 version = "0.1.0"
-description = "Add your description here"
+description = "SciFigQual-Bench evaluation code: SFQ-Agent and Direct/Sidecar judges"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [

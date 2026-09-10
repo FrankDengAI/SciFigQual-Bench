@@ -1,4 +1,4 @@
-#!/usr/bin/env -S uv run --script
+﻿#!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
 # dependencies = [
@@ -20,7 +20,7 @@ import typer
 from dotenv import load_dotenv
 from provider_registry import validate_provider
 
-REPO_ID = "ccf-team/ccf-paper-figures"
+REPO_ID = "ANONYMIZED_HF_DATASET_REPO"
 HF_BASE = f"hf://datasets/{REPO_ID}"
 REPO_ROOT = Path(__file__).resolve().parent.parent
 ENV_PATH = REPO_ROOT / ".env"

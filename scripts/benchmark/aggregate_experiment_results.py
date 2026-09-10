@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Aggregate experiment results into paper_experiment_tables.md metrics."""
 
 from __future__ import annotations
@@ -221,7 +221,7 @@ def _update_table1_doc(rows: list[dict], doc_path: Path) -> None:
             f"<td>{_fmt(row.get('ctx_mae'))}</td>"
             f"<td>{_fmt(row.get('mr_mae'))}</td>"
         )
-        # HTML 三线表：按 data-run-id 定位并刷新 7 个指标列
+        # HTML table: locate rows by data-run-id and refresh seven metric columns
         pattern = (
             rf'(<td data-run-id="{re.escape(run_id)}"[^>]*>{re.escape(run_id)}</td>\s*'
             rf'<td class="backend"[^>]*>[^<]*</td>\s*'
@@ -231,7 +231,7 @@ def _update_table1_doc(rows: list[dict], doc_path: Path) -> None:
         text, n = re.subn(pattern, rf"\1{metrics_html}", text, count=1, flags=re.DOTALL)
         if n:
             continue
-        # 兼容旧版 Markdown 管道表
+        # Compatibility with legacy Markdown pipe tables
         pattern_md = (
             rf"(\| \*\*{re.escape(run_id)}\*\* \| [^|]+\| [^|]+\| )"
             rf"[^|]*( \| )[^|]*( \| )[^|]*( \| )[^|]*( \| )[^|]*( \| )[^|]*( \| )[^|]*( \| )"

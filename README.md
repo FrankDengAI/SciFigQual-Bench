@@ -15,7 +15,7 @@ Scientific figure quality in peer review is **tri-modal**: reviewers cross-check
 
 **SciFigQual-Bench** binds each published CS figure to full-manuscript context and scores five orthogonal dimensions on a unified 1–10 scale. **SFQ-Agent** collects vision and language evidence in stages, then fuses them with a cross-modal judge for auditable, rubric-aligned scores.
 
-**Release scope.** This repository ships the evaluation code (three judge protocols, prompts, and benchmark scripts). The gold dataset is hosted on [Hugging Face](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench).
+**Release scope.** This repository ships the evaluation code (three judge protocols, prompts, and benchmark scripts) plus an **eval1200** gold slice for inspection. The full 6,308-figure gold dataset is hosted on [Hugging Face](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench).
 
 ---
 
@@ -99,7 +99,7 @@ Scores use a **1–10** Likert scale per dimension. Overall score is a gated mea
 
 **L1 gating:** CC is null when the caption is absent; CTX is null when citing text is absent; instances lacking both are excluded from scoring.
 
-Prompt templates: [`model_scoring/prompts/`](model_scoring/prompts/) (Direct / Sidecar) and [`model_scoring/agent_scoring/prompts/`](model_scoring/agent_scoring/prompts/) (Agent).
+Prompt templates: [`model_scoring/prompts/`](model_scoring/prompts/) (Direct / Sidecar) and [`model_scoring/agent_scoring/prompts/`](model_scoring/agent_scoring/prompts/) (Agent). JSONL field definitions: [`SCHEMA.md`](SCHEMA.md).
 
 ---
 
@@ -130,20 +130,20 @@ Caption and context consistency are hard for monolithic VLMs. **SFQ-Agent** impl
 
 Entry points:
 
-- Direct / Sidecar: [`model_scoring/score_and_upload.py`](model_scoring/score_and_upload.py)
+- Direct / Sidecar: [`model_scoring/paper_runner.py`](model_scoring/paper_runner.py) and [`model_scoring/run_score_batch.py`](model_scoring/run_score_batch.py)
 - SFQ-Agent: [`model_scoring/agent_scoring/run_agent_score.py`](model_scoring/agent_scoring/run_agent_score.py)
 
 ### eval1200 experiment matrix
 
-Fixed public test split: **1,200** figures stratified by venue and figure type ([`configs/human_eval_subset_1200.jsonl`](configs/human_eval_subset_1200.jsonl)).
+Fixed public test split: **1,200** figures, paper-aware sampling ([`data/eval1200/figures.jsonl`](data/eval1200/figures.jsonl)).
 
 | Family | Run IDs | Backends (examples) |
 |--------|---------|---------------------|
-| Direct | D1–D11 | Gemini, GPT, Claude, Qwen, GLM, Doubao, Llama, Pixtral, Nova, Opus, InternVL |
-| Sidecar | S1–S9 | Same subset + OCR side features |
-| SFQ-Agent | F1–F9 | Staged agent with matched VLM / LLM pairs |
+| Direct | D1–D11 | Gemini-3.5-Flash, GPT-5.6-Sol, Claude-Sonnet-5, Qwen-VL-Max, GLM-4.6V, Doubao-Seed-2.0-pro, Llama-4-Maverick, Pixtral-Large, Nova-Pro, Claude-Opus-4.8, InternVL3-78B |
+| Sidecar | S1–S9 | Same subset + OCR side features (Claude backends omitted) |
+| SFQ-Agent | F1–F9 | Matched VLM / LLM pairs; F5 is Qwen-VL-Max + Qwen-Plus |
 
-Full matrix: [`configs/eval1200_ablation.yaml`](configs/eval1200_ablation.yaml) (29 runs).
+Full matrix: [`configs/eval1200_ablation.yaml`](configs/eval1200_ablation.yaml) (29 runs). Appendix qualitative cases Ex-A/B/C and Ex-F/G/H: [`data/eval1200/paper_cases.md`](data/eval1200/paper_cases.md).
 
 ---
 
@@ -152,16 +152,15 @@ Full matrix: [`configs/eval1200_ablation.yaml`](configs/eval1200_ablation.yaml) 
 ```
 .
 ├── model_scoring/           # Direct & Sidecar judges, prompts, provider registry
-│   └── agent_scoring/       # SFQ-Agent (staged pipeline)
+│   ├── prompts/            # single-pass judge prompts
+│   └── agent_scoring/       # SFQ-Agent (staged pipeline + prompts)
 ├── src/cs64/                # Data I/O, OCR / CV feature pipeline (Sidecar)
-├── scripts/
-│   ├── benchmark/           # eval1200 matrix, metrics, prediction tools
-│   ├── build_datasets.py
-│   └── export_readme_figures.py
+├── scripts/benchmark/       # eval1200 matrix and metrics vs. human gold
 ├── configs/
-│   ├── eval1200_ablation.yaml
-│   └── human_eval_subset_1200.jsonl
-└── docs/figures/            # README figures (Fig. 2–4 from the paper)
+│   └── eval1200_ablation.yaml
+├── data/eval1200/           # eval1200 gold JSONL + example PNG crops
+├── docs/figures/            # README figures (Figs. 2–4)
+└── SCHEMA.md                # eval1200 JSONL schema
 ```
 
 ---
@@ -208,9 +207,20 @@ To enable live scoring:
 
 ## Data
 
-**Dataset:** [huggingface.co/datasets/haihanlamu/SciFigQual-Bench](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench)
+**Full gold dataset:** [huggingface.co/datasets/haihanlamu/SciFigQual-Bench](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench)
 
-After download, a typical local layout is:
+This repository also ships a reviewable **eval1200** slice:
+
+```
+data/eval1200/
+├── figures.jsonl           # 1,200 instances (caption, citing text, anonymized raters)
+├── human_means.csv         # aggregated VC / SL / CC / CTX / MR / overall
+├── images/                # original PNG crops (subset; see included_images.json)
+├── paper_cases.md         # appendix cases Ex-A/B/C and Ex-F/G/H
+└── sampling_meta.json     # frozen split protocol
+```
+
+After downloading the Hugging Face release, a typical full-gold layout is:
 
 ```
 datasets/full/
@@ -220,7 +230,7 @@ datasets/full/
 └── splits/eval1200.jsonl   # fixed public test manifest
 ```
 
-This repository also ships [`configs/human_eval_subset_1200.jsonl`](configs/human_eval_subset_1200.jsonl) as the eval1200 manifest used by the scoring scripts.
+Join keys: `figure_id` or `(paper_id, fig_index)`. Schema: [`SCHEMA.md`](SCHEMA.md).
 
 Source PDFs and raw crawls are not redistributed here. Follow the Hugging Face dataset card for data terms when reusing figure crops and manuscript text.
 
@@ -235,26 +245,21 @@ python scripts/benchmark/run_experiment_matrix.py \
   --config configs/eval1200_ablation.yaml
 ```
 
-### Score one Direct / Sidecar configuration
+### Score with SFQ-Agent
 
 Requires live APIs enabled (see Installation):
 
 ```bash
-python model_scoring/score_and_upload.py \
-  --batch-mode paper \
-  --manifest configs/human_eval_subset_1200.jsonl \
-  --skip-upload \
-  --provider gemini \
-  --model gemini-2.5-flash \
-  --prompt-mode baseline
+python model_scoring/agent_scoring/run_agent_score.py \
+  --manifest data/eval1200/figures.jsonl \
+  --skip-upload
 ```
 
-### Score with SFQ-Agent
+### Score one Direct / Sidecar configuration
 
 ```bash
-python model_scoring/agent_scoring/run_agent_score.py \
-  --manifest configs/human_eval_subset_1200.jsonl \
-  --skip-upload
+python model_scoring/paper_runner.py --help
+python model_scoring/run_score_batch.py --help
 ```
 
 Adjust provider / model flags to match a run in [`configs/eval1200_ablation.yaml`](configs/eval1200_ablation.yaml).
@@ -267,8 +272,9 @@ Compare model predictions against human gold:
 
 ```bash
 python scripts/benchmark/evaluate_vs_human.py \
-  --predictions outputs/benchmark_eval1200/D1/results.jsonl \
-  --human datasets/full/human_means.csv
+  --results outputs/benchmark_eval1200/D1 \
+  --consolidated data/eval1200/figures.jsonl \
+  --manifest data/eval1200/figures.jsonl
 ```
 
 Aggregate tables across the matrix:
@@ -279,10 +285,15 @@ python scripts/benchmark/aggregate_experiment_results.py
 
 Primary reported metrics on eval1200: **MAE**, **within-1 agreement**, and per-dimension error against expert means.
 
-### Regenerate README figures
+Inspect appendix cases (image + caption + citing text + per-rater rationales):
 
-```bash
-python scripts/export_readme_figures.py --paper-dir /path/to/paper
+```python
+import json
+from pathlib import Path
+
+root = Path("data/eval1200")
+rows = [json.loads(line) for line in (root / "figures.jsonl").open(encoding="utf-8")]
+print(len(rows))  # 1200
 ```
 
 ---
@@ -290,7 +301,7 @@ python scripts/export_readme_figures.py --paper-dir /path/to/paper
 ## Reproducibility Notes
 
 - Public entry points accept paths through CLI arguments; no machine-local paths are embedded.
-- The eval1200 split is fixed in [`configs/human_eval_subset_1200.jsonl`](configs/human_eval_subset_1200.jsonl) for fair protocol comparison.
+- The eval1200 split is frozen in [`data/eval1200/figures.jsonl`](data/eval1200/figures.jsonl) for fair protocol comparison.
 - Live vendor APIs are blocked by default; enable keys only when running fresh inference.
 - Exact paper numbers require matched backends, prompts, and decoding settings, plus the Hugging Face gold labels.
 - Dependency files use compatible lower bounds rather than a full environment lock — record resolved versions for new experiments.
@@ -299,7 +310,7 @@ python scripts/export_readme_figures.py --paper-dir /path/to/paper
 
 ## License
 
-Source code in this repository is released under the **MIT License**. Dataset terms are stated on the [Hugging Face dataset card](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench).
+Source code in this repository is released under the **MIT License**. Dataset terms are stated on the [Hugging Face dataset card](https://huggingface.co/datasets/haihanlamu/SciFigQual-Bench). Figure crops and excerpted manuscript text remain subject to the original venue / publisher terms.
 
 ---
 

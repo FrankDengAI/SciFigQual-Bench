@@ -1,13 +1,11 @@
-# Agent Scoring (SFQ-Agent)
+# SFQ-Agent (`agent_scoring/`)
 
-The auditable scoring workflow: a VLM stage (image + features → visual facts &
-scores), an LLM stage (caption + context → text facts), and a final judge that
-combines structured evidence — so every score is traceable. Final rows keep the
-shared contract (`source_type=model`, `source_name=<model_label>`). Entry:
-`run_agent_score.py`. Active prompts are v5 (`prompts/`).
+Auditable staged scoring:
 
-📖 **Full documentation:** [`wiki/02-scoring/03-agent-scoring.md`](../../wiki/02-scoring/03-agent-scoring.md)
-— scoring authority, the four design stages, code-enforced constraints, and the
-misleading-risk decomposition.
+1. **Vision evidence** — VLM reads the figure (+ optional features) → structured visual facts (VC / SL focus).
+2. **Language evidence** — LLM reads caption + citing paragraphs only → text facts (CC / CTX focus).
+3. **Cross-modal judge** — fuse tracks; score remaining dimensions; flag visual–text conflicts.
+4. **Runner aggregation** — deterministic score assembly with rule-based MR caps.
 
-> See [`wiki/index.md`](../../wiki/index.md) for the whole project.
+Entry point: `run_agent_score.py`  
+Active prompts: `prompts/vlm_evidence_report_paper_batch.md`, `llm_evidence_report_paper_batch.md`, `final_judge_paper_batch.md`.

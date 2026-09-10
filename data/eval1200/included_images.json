@@ -1,0 +1,6822 @@
+{
+  "n": 849,
+  "eval1200_n": 1200,
+  "selected_bytes": 51959641,
+  "note": "PNG subset chosen to fill the 50 MB zip; JSONL contains all 1,200 records.",
+  "venue_counts": {
+    "EMNLP": 202,
+    "ACL": 214,
+    "ICML": 219,
+    "NeurIPS": 214
+  },
+  "year_counts": {
+    "2020": 113,
+    "2021": 114,
+    "2022": 135,
+    "2023": 123,
+    "2024": 193,
+    "2025": 171
+  },
+  "paper_cases": [
+    "0001_2020.acl-main.1__fig0001",
+    "0002_2020.acl-main.2__fig0002",
+    "0002_2020.acl-main.2__fig0001",
+    "0008_2020.acl-main.8__fig0001",
+    "0003_2020.acl-main.3__fig0001",
+    "5JvnsAdf6Vz__fig0003"
+  ],
+  "files": [
+    {
+      "figure_id": "-G7QKQnciii__fig0001",
+      "bytes": 42348,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "-G7QKQnciii__fig0003",
+      "bytes": 91681,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "-G7QKQnciii__fig0004",
+      "bytes": 101304,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "-GeYJnyoRXN__fig0002",
+      "bytes": 20767,
+      "reason": "diversity:year:2020,venue-year:EMNLP-2020,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-low",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2020.acl-main.1__fig0001",
+      "bytes": 57872,
+      "reason": "paper_case:Ex-A",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": "Ex-A"
+    },
+    {
+      "figure_id": "0001_2020.acl-main.1__fig0002",
+      "bytes": 67968,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0001",
+      "bytes": 48388,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0002",
+      "bytes": 123611,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0003",
+      "bytes": 31929,
+      "reason": "diversity:venue-year:ACL-2021",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0004",
+      "bytes": 42655,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0005",
+      "bytes": 62054,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0006",
+      "bytes": 50037,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0007",
+      "bytes": 38715,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0008",
+      "bytes": 120041,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.acl-long.1__fig0009",
+      "bytes": 32190,
+      "reason": "diversity:venue-year:ACL-2021",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.emnlp-main.1__fig0002",
+      "bytes": 14744,
+      "reason": "diversity:venue:EMNLP,year:2021,venue-year:EMNLP-2021,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.emnlp-main.1__fig0003",
+      "bytes": 21693,
+      "reason": "diversity:year:2021,venue-year:EMNLP-2021,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2021.emnlp-main.1__fig0004",
+      "bytes": 70162,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.acl-long.1__fig0001",
+      "bytes": 56471,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.acl-long.1__fig0002",
+      "bytes": 28067,
+      "reason": "diversity:venue-year:ACL-2022",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.acl-long.1__fig0003",
+      "bytes": 64766,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.acl-long.1__fig0005",
+      "bytes": 59924,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0001",
+      "bytes": 71938,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0002",
+      "bytes": 55232,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0003",
+      "bytes": 300365,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0004",
+      "bytes": 34903,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0005",
+      "bytes": 39019,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0006",
+      "bytes": 36730,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0007",
+      "bytes": 39416,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2022.emnlp-main.1__fig0008",
+      "bytes": 46274,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2024.acl-long.1__fig0002",
+      "bytes": 123090,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2024.acl-long.1__fig0003",
+      "bytes": 44314,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2024.acl-long.1__fig0006",
+      "bytes": 88893,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2025.acl-long.1__fig0003",
+      "bytes": 23596,
+      "reason": "diversity:year:2025,venue-year:ACL-2025,venue-cc:ACL-mid",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2025.emnlp-main.1__fig0001",
+      "bytes": 105999,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_2025.emnlp-main.1__fig0003",
+      "bytes": 62430,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0002",
+      "bytes": 91491,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0003",
+      "bytes": 26738,
+      "reason": "diversity:venue-year:ICML-2020,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0005",
+      "bytes": 116506,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0006",
+      "bytes": 51157,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0007",
+      "bytes": 95601,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0008",
+      "bytes": 59889,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2020_abbas20a__fig0009",
+      "bytes": 64387,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2021_abdolshah21a__fig0001",
+      "bytes": 26359,
+      "reason": "diversity:venue-year:ICML-2021,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2021_abdolshah21a__fig0002",
+      "bytes": 61882,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2021_abdolshah21a__fig0003",
+      "bytes": 51630,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2021_abdolshah21a__fig0004",
+      "bytes": 53893,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2022_abbas22a__fig0001",
+      "bytes": 31829,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0001_icml2022_abbas22a__fig0002",
+      "bytes": 85070,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2020.acl-main.2__fig0001",
+      "bytes": 95949,
+      "reason": "paper_case:Ex-C",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": "Ex-C"
+    },
+    {
+      "figure_id": "0002_2020.acl-main.2__fig0002",
+      "bytes": 14045,
+      "reason": "paper_case:Ex-B",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": "Ex-B"
+    },
+    {
+      "figure_id": "0002_2021.acl-long.2__fig0001",
+      "bytes": 81009,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2021.acl-long.2__fig0002",
+      "bytes": 77699,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2021.acl-long.2__fig0003",
+      "bytes": 65125,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2021.acl-long.2__fig0004",
+      "bytes": 250099,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2021.acl-long.2__fig0006",
+      "bytes": 51512,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2021.emnlp-main.2__fig0001",
+      "bytes": 51549,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2021.emnlp-main.2__fig0002",
+      "bytes": 49890,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2022.emnlp-main.2__fig0003",
+      "bytes": 65363,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2022.emnlp-main.2__fig0006",
+      "bytes": 55986,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2023.acl-long.1__fig0002",
+      "bytes": 41994,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2024.acl-long.2__fig0001",
+      "bytes": 61298,
+      "reason": "diversity:venue-ctx:ACL-noctx,topic:multimodal",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2024.acl-long.2__fig0003",
+      "bytes": 98447,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2024.acl-long.2__fig0004",
+      "bytes": 25454,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2024.acl-long.2__fig0006",
+      "bytes": 29611,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2024.acl-long.2__fig0007",
+      "bytes": 77210,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2024.emnlp-main.2__fig0002",
+      "bytes": 38796,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2025.acl-long.2__fig0003",
+      "bytes": 32037,
+      "reason": "diversity:venue-cc:ACL-low,overall:low,topic:unlabeled",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2025.acl-long.2__fig0004",
+      "bytes": 87475,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2025.acl-long.2__fig0008",
+      "bytes": 25881,
+      "reason": "diversity:venue-year:ACL-2025,topic:unlabeled",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2025.acl-long.2__fig0010",
+      "bytes": 85283,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2025.emnlp-main.2__fig0003",
+      "bytes": 94857,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_2025.emnlp-main.2__fig0009",
+      "bytes": 89860,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0001",
+      "bytes": 114326,
+      "reason": "diversity:topic:multimodal",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0002",
+      "bytes": 16667,
+      "reason": "diversity:venue:ICML,year:2020,venue-year:ICML-2020,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0003",
+      "bytes": 37928,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0004",
+      "bytes": 42863,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0005",
+      "bytes": 47209,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0006",
+      "bytes": 85167,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2020_abdolmaleki20a__fig0007",
+      "bytes": 39858,
+      "reason": "diversity:topic:unlabeled",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0001",
+      "bytes": 51535,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0002",
+      "bytes": 44381,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0003",
+      "bytes": 28129,
+      "reason": "diversity:venue-year:ICML-2021",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0004",
+      "bytes": 42978,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0005",
+      "bytes": 44962,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0006",
+      "bytes": 28605,
+      "reason": "diversity:venue-year:ICML-2021",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0007",
+      "bytes": 30145,
+      "reason": "diversity:venue-year:ICML-2021",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0008",
+      "bytes": 50044,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2021_abeyrathna21a__fig0009",
+      "bytes": 30999,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2022_abbas22b__fig0002",
+      "bytes": 29615,
+      "reason": "diversity:venue-cc:ICML-low,topic:computer_vision",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0002_icml2022_abbas22b__fig0003",
+      "bytes": 30888,
+      "reason": "diversity:venue-cc:ICML-low,topic:computer_vision",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2020.acl-main.3__fig0001",
+      "bytes": 64154,
+      "reason": "paper_case:Ex-G",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": "Ex-G"
+    },
+    {
+      "figure_id": "0003_2020.acl-main.3__fig0002",
+      "bytes": 145315,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.acl-long.3__fig0002",
+      "bytes": 29719,
+      "reason": "diversity:venue-year:ACL-2021",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.acl-long.3__fig0003",
+      "bytes": 47373,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.acl-long.3__fig0004",
+      "bytes": 34125,
+      "reason": "diversity:venue-year:ACL-2021,venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.acl-long.3__fig0005",
+      "bytes": 20557,
+      "reason": "diversity:year:2021,venue-year:ACL-2021,venue-cc:ACL-high,mr:mid",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.acl-long.3__fig0006",
+      "bytes": 14118,
+      "reason": "diversity:venue:ACL,year:2021,venue-year:ACL-2021,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.emnlp-main.3__fig0002",
+      "bytes": 60644,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.emnlp-main.3__fig0003",
+      "bytes": 72557,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.emnlp-main.3__fig0004",
+      "bytes": 22767,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.emnlp-main.3__fig0005",
+      "bytes": 68279,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2021.emnlp-main.3__fig0006",
+      "bytes": 46787,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.acl-long.3__fig0002",
+      "bytes": 104359,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.acl-long.3__fig0004",
+      "bytes": 36289,
+      "reason": "diversity:venue-year:ACL-2022,overall:low",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.acl-long.3__fig0005",
+      "bytes": 56054,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.emnlp-main.3__fig0002",
+      "bytes": 69563,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.emnlp-main.3__fig0003",
+      "bytes": 107508,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.emnlp-main.3__fig0004",
+      "bytes": 30820,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2022.emnlp-main.3__fig0006",
+      "bytes": 50962,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2023.acl-long.2__fig0001",
+      "bytes": 77987,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0001",
+      "bytes": 47865,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0002",
+      "bytes": 33335,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0003",
+      "bytes": 32242,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0005",
+      "bytes": 34537,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0006",
+      "bytes": 36370,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0007",
+      "bytes": 12065,
+      "reason": "diversity:venue:ACL,year:2024,venue-year:ACL-2024,venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0008",
+      "bytes": 18757,
+      "reason": "diversity:year:2024,venue-year:ACL-2024,venue-ctx:ACL-ctx,venue-cc:ACL-low",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0009",
+      "bytes": 23202,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0013",
+      "bytes": 75612,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0014",
+      "bytes": 17964,
+      "reason": "diversity:venue:ACL,year:2024,venue-year:ACL-2024,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.acl-long.3__fig0015",
+      "bytes": 17071,
+      "reason": "diversity:venue:ACL,year:2024,venue-year:ACL-2024,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.emnlp-main.3__fig0001",
+      "bytes": 78988,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2024.emnlp-main.3__fig0004",
+      "bytes": 60691,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2025.acl-long.3__fig0001",
+      "bytes": 62598,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2025.acl-long.3__fig0002",
+      "bytes": 96080,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2025.acl-long.3__fig0003",
+      "bytes": 82474,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2025.acl-long.3__fig0004",
+      "bytes": 82759,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2025.acl-long.3__fig0005",
+      "bytes": 69402,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_2025.emnlp-main.3__fig0001",
+      "bytes": 65721,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_icml2020_abeille20a__fig0001",
+      "bytes": 32965,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_icml2020_abeille20a__fig0003",
+      "bytes": 29670,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_icml2021_acar21a__fig0001",
+      "bytes": 64381,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_icml2022_abbe22a__fig0001",
+      "bytes": 44510,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0003_icml2022_abbe22a__fig0002",
+      "bytes": 59961,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2020.acl-main.4__fig0002",
+      "bytes": 23587,
+      "reason": "diversity:venue-year:ACL-2020,venue-cc:ACL-low",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2020.acl-main.4__fig0003",
+      "bytes": 50202,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2021.emnlp-main.4__fig0001",
+      "bytes": 65184,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2021.emnlp-main.4__fig0002",
+      "bytes": 11620,
+      "reason": "diversity:venue:EMNLP,year:2021,venue-year:EMNLP-2021,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2021.emnlp-main.4__fig0003",
+      "bytes": 45647,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2021.emnlp-main.4__fig0004",
+      "bytes": 20872,
+      "reason": "diversity:year:2021,venue-year:EMNLP-2021,venue-cc:EMNLP-mid,hardcc",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2021.emnlp-main.4__fig0005",
+      "bytes": 17100,
+      "reason": "diversity:venue:EMNLP,year:2021,venue-year:EMNLP-2021,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2021.emnlp-main.4__fig0006",
+      "bytes": 15363,
+      "reason": "diversity:venue:EMNLP,year:2021,venue-year:EMNLP-2021,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2022.emnlp-main.4__fig0002",
+      "bytes": 20182,
+      "reason": "diversity:year:2022,venue-year:EMNLP-2022,venue-cc:EMNLP-mid,hardcc",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2022.emnlp-main.4__fig0004",
+      "bytes": 15883,
+      "reason": "diversity:venue:EMNLP,year:2022,venue-year:EMNLP-2022,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2022.emnlp-main.4__fig0005",
+      "bytes": 18752,
+      "reason": "diversity:year:2022,venue-year:EMNLP-2022,venue-cc:EMNLP-mid,hardcc",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2023.acl-long.3__fig0001",
+      "bytes": 72726,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2023.acl-long.3__fig0003",
+      "bytes": 75348,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2023.acl-long.3__fig0004",
+      "bytes": 75183,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2023.acl-long.3__fig0006",
+      "bytes": 32017,
+      "reason": "diversity:venue-year:ACL-2023,venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2023.acl-long.3__fig0007",
+      "bytes": 45304,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.acl-long.4__fig0004",
+      "bytes": 109887,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.emnlp-main.4__fig0003",
+      "bytes": 69214,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.emnlp-main.4__fig0004",
+      "bytes": 83189,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.emnlp-main.4__fig0005",
+      "bytes": 40809,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.emnlp-main.4__fig0006",
+      "bytes": 37776,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.emnlp-main.4__fig0007",
+      "bytes": 82892,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2024.emnlp-main.4__fig0008",
+      "bytes": 34569,
+      "reason": "diversity:venue-cc:EMNLP-high",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.acl-long.4__fig0003",
+      "bytes": 47157,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.acl-long.4__fig0004",
+      "bytes": 28988,
+      "reason": "diversity:venue-year:ACL-2025",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0001",
+      "bytes": 64302,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0002",
+      "bytes": 105443,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0003",
+      "bytes": 82592,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0006",
+      "bytes": 42819,
+      "reason": "diversity:overall:low",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0008",
+      "bytes": 34308,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0013",
+      "bytes": 36461,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0014",
+      "bytes": 94304,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0015",
+      "bytes": 29984,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0016",
+      "bytes": 24435,
+      "reason": "diversity:year:2025,venue-year:EMNLP-2025,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_2025.emnlp-main.4__fig0017",
+      "bytes": 25964,
+      "reason": "diversity:venue-year:EMNLP-2025,overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2020_ablin20a__fig0001",
+      "bytes": 33518,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2020_ablin20a__fig0002",
+      "bytes": 76975,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2020_ablin20a__fig0003",
+      "bytes": 72814,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2020_ablin20a__fig0004",
+      "bytes": 28463,
+      "reason": "diversity:venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2021_acar21b__fig0001",
+      "bytes": 75638,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2021_acar21b__fig0002",
+      "bytes": 90085,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2021_acar21b__fig0003",
+      "bytes": 67880,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0004_icml2021_acar21b__fig0004",
+      "bytes": 70154,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2020.acl-main.5__fig0001",
+      "bytes": 70940,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2021.acl-long.5__fig0003",
+      "bytes": 36322,
+      "reason": "diversity:venue-cc:ACL-low,topic:unlabeled",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2022.acl-long.5__fig0001",
+      "bytes": 122972,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2022.acl-long.5__fig0002",
+      "bytes": 97895,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2022.emnlp-main.5__fig0001",
+      "bytes": 62668,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2022.emnlp-main.5__fig0003",
+      "bytes": 76128,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2023.acl-long.4__fig0001",
+      "bytes": 79540,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2023.acl-long.4__fig0003",
+      "bytes": 18677,
+      "reason": "diversity:venue:ACL,year:2023,venue-year:ACL-2023,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.acl-long.5__fig0001",
+      "bytes": 72204,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.acl-long.5__fig0002",
+      "bytes": 102528,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.acl-long.5__fig0003",
+      "bytes": 122208,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.acl-long.5__fig0004",
+      "bytes": 66830,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.acl-long.5__fig0005",
+      "bytes": 85104,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.acl-long.5__fig0006",
+      "bytes": 86108,
+      "reason": "diversity:topic:speech_audio",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.emnlp-main.5__fig0002",
+      "bytes": 25376,
+      "reason": "diversity:venue-year:EMNLP-2024",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.emnlp-main.5__fig0003",
+      "bytes": 25235,
+      "reason": "diversity:venue-year:EMNLP-2024,venue-cc:EMNLP-high,overall:high",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2024.emnlp-main.5__fig0004",
+      "bytes": 26188,
+      "reason": "diversity:venue-year:EMNLP-2024,venue-cc:EMNLP-high",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2025.emnlp-main.5__fig0001",
+      "bytes": 12988,
+      "reason": "diversity:venue:EMNLP,year:2025,venue-year:EMNLP-2025,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_2025.emnlp-main.5__fig0002",
+      "bytes": 60560,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_icml2020_abrol20a__fig0001",
+      "bytes": 10573,
+      "reason": "diversity:venue:ICML,year:2020,venue-year:ICML-2020,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_icml2020_abrol20a__fig0002",
+      "bytes": 122063,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0005_icml2021_acharya21a__fig0001",
+      "bytes": 57330,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2020.acl-main.6__fig0001",
+      "bytes": 411457,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2020.acl-main.6__fig0002",
+      "bytes": 56688,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2021.acl-long.6__fig0001",
+      "bytes": 50843,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2021.acl-long.6__fig0005",
+      "bytes": 9500,
+      "reason": "diversity:venue:ACL,year:2021,venue-year:ACL-2021,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2021.emnlp-main.6__fig0002",
+      "bytes": 58318,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0001",
+      "bytes": 35673,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0002",
+      "bytes": 53899,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0003",
+      "bytes": 48804,
+      "reason": "diversity:overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0004",
+      "bytes": 23707,
+      "reason": "diversity:year:2022,venue-year:EMNLP-2022,overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0005",
+      "bytes": 16144,
+      "reason": "diversity:venue:EMNLP,year:2022,venue-year:EMNLP-2022,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0006",
+      "bytes": 30526,
+      "reason": "diversity:overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0009",
+      "bytes": 93603,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0010",
+      "bytes": 40629,
+      "reason": "diversity:overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0012",
+      "bytes": 51380,
+      "reason": "diversity:overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0013",
+      "bytes": 9828,
+      "reason": "diversity:venue:EMNLP,year:2022,venue-year:EMNLP-2022,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0015",
+      "bytes": 33338,
+      "reason": "diversity:mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0016",
+      "bytes": 19005,
+      "reason": "diversity:year:2022,venue-year:EMNLP-2022,venue-cc:EMNLP-low,overall:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2022.emnlp-main.6__fig0017",
+      "bytes": 33589,
+      "reason": "diversity:overall:low,mr:low",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2023.acl-long.5__fig0002",
+      "bytes": 79749,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2024.acl-long.6__fig0001",
+      "bytes": 74383,
+      "reason": "diversity:topic:multimodal",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2024.acl-long.6__fig0003",
+      "bytes": 34358,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2025.acl-long.6__fig0001",
+      "bytes": 30597,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2025.acl-long.6__fig0002",
+      "bytes": 90596,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_2025.acl-long.6__fig0003",
+      "bytes": 119771,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_icml2020_acharya20a__fig0001",
+      "bytes": 19444,
+      "reason": "diversity:venue:ICML,year:2020,venue-year:ICML-2020,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_icml2020_acharya20a__fig0003",
+      "bytes": 56163,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_icml2021_achituve21a__fig0002",
+      "bytes": 27999,
+      "reason": "diversity:venue-year:ICML-2021,venue-cc:ICML-high,overall:high",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_icml2021_achituve21a__fig0003",
+      "bytes": 80183,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0006_icml2022_agarwal22a__fig0001",
+      "bytes": 130390,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2020.acl-main.7__fig0001",
+      "bytes": 130168,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.acl-long.7__fig0001",
+      "bytes": 39577,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.acl-long.7__fig0002",
+      "bytes": 73969,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.acl-long.7__fig0003",
+      "bytes": 89814,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.emnlp-main.7__fig0001",
+      "bytes": 99700,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.emnlp-main.7__fig0002",
+      "bytes": 44522,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.emnlp-main.7__fig0003",
+      "bytes": 40468,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2021.emnlp-main.7__fig0004",
+      "bytes": 18726,
+      "reason": "diversity:year:2021,venue-year:EMNLP-2021,venue-ctx:EMNLP-noctx,venue-cc:EMNLP-low",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2022.acl-long.7__fig0002",
+      "bytes": 39514,
+      "reason": "diversity:venue-year:ACL-2022",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2022.acl-long.7__fig0003",
+      "bytes": 50556,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2022.emnlp-main.7__fig0002",
+      "bytes": 51090,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2022.emnlp-main.7__fig0003",
+      "bytes": 29646,
+      "reason": "diversity:topic:unlabeled",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2023.acl-long.6__fig0002",
+      "bytes": 120140,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0001",
+      "bytes": 70766,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0002",
+      "bytes": 40633,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0003",
+      "bytes": 42699,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0004",
+      "bytes": 24959,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0005",
+      "bytes": 46478,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0006",
+      "bytes": 15376,
+      "reason": "diversity:venue:ACL,year:2024,venue-year:ACL-2024,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0007",
+      "bytes": 42505,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0008",
+      "bytes": 16148,
+      "reason": "diversity:venue:ACL,year:2024,venue-year:ACL-2024,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.acl-long.7__fig0009",
+      "bytes": 83957,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0002",
+      "bytes": 40390,
+      "reason": "diversity:overall:low",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0003",
+      "bytes": 61739,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0004",
+      "bytes": 39030,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0005",
+      "bytes": 107217,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0006",
+      "bytes": 40495,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0008",
+      "bytes": 91073,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0009",
+      "bytes": 78403,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2024.emnlp-main.7__fig0010",
+      "bytes": 39324,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2025.acl-long.7__fig0001",
+      "bytes": 111343,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2025.emnlp-main.7__fig0001",
+      "bytes": 77910,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2025.emnlp-main.7__fig0004",
+      "bytes": 56672,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_2025.emnlp-main.7__fig0005",
+      "bytes": 30635,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2020_addanki20a__fig0001",
+      "bytes": 23149,
+      "reason": "diversity:venue-year:ICML-2020,venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2020_addanki20a__fig0002",
+      "bytes": 14958,
+      "reason": "diversity:venue:ICML,year:2020,venue-year:ICML-2020,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2021_acuna21a__fig0001",
+      "bytes": 6902,
+      "reason": "diversity:venue:ICML,year:2021,venue-year:ICML-2021,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2021_acuna21a__fig0002",
+      "bytes": 30720,
+      "reason": "diversity:venue-cc:ICML-low",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2021_acuna21a__fig0003",
+      "bytes": 38838,
+      "reason": "diversity:venue-cc:ICML-low,mr:low,topic:computer_vision",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2021_acuna21a__fig0004",
+      "bytes": 17210,
+      "reason": "diversity:venue:ICML,year:2021,venue-year:ICML-2021,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2021_acuna21a__fig0005",
+      "bytes": 74787,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2022_agarwal22b__fig0001",
+      "bytes": 59790,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2022_agarwal22b__fig0002",
+      "bytes": 95479,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2022_agarwal22b__fig0003",
+      "bytes": 41241,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2022_agarwal22b__fig0005",
+      "bytes": 71506,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2022_agarwal22b__fig0006",
+      "bytes": 29131,
+      "reason": "diversity:venue-year:ICML-2022,topic:unlabeled",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0007_icml2022_agarwal22b__fig0007",
+      "bytes": 70701,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2020.acl-main.8__fig0001",
+      "bytes": 65331,
+      "reason": "paper_case:Ex-F",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": "Ex-F"
+    },
+    {
+      "figure_id": "0008_2020.acl-main.8__fig0002",
+      "bytes": 58703,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2020.acl-main.8__fig0006",
+      "bytes": 112719,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2021.acl-long.8__fig0001",
+      "bytes": 24502,
+      "reason": "diversity:venue-year:ACL-2021",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2021.acl-long.8__fig0002",
+      "bytes": 112807,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2021.acl-long.8__fig0003",
+      "bytes": 57997,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2021.acl-long.8__fig0004",
+      "bytes": 97959,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2021.emnlp-main.8__fig0003",
+      "bytes": 78311,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2021.emnlp-main.8__fig0004",
+      "bytes": 23554,
+      "reason": "diversity:venue-cc:EMNLP-high,overall:high",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.acl-long.8__fig0003",
+      "bytes": 102154,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.acl-long.8__fig0006",
+      "bytes": 65622,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.acl-long.8__fig0007",
+      "bytes": 8461,
+      "reason": "diversity:venue:ACL,year:2022,venue-year:ACL-2022,venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.emnlp-main.8__fig0002",
+      "bytes": 28718,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.emnlp-main.8__fig0003",
+      "bytes": 39222,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.emnlp-main.8__fig0004",
+      "bytes": 57825,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2022.emnlp-main.8__fig0005",
+      "bytes": 47413,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2023.acl-long.7__fig0002",
+      "bytes": 73609,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2023.acl-long.7__fig0003",
+      "bytes": 49693,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2023.acl-long.7__fig0004",
+      "bytes": 41464,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2023.acl-long.7__fig0005",
+      "bytes": 60495,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.acl-long.8__fig0001",
+      "bytes": 25315,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.acl-long.8__fig0003",
+      "bytes": 19699,
+      "reason": "diversity:year:2024,venue-year:ACL-2024,venue-cc:ACL-mid",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.acl-long.8__fig0004",
+      "bytes": 33351,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.acl-long.8__fig0005",
+      "bytes": 10285,
+      "reason": "diversity:venue:ACL,year:2024,venue-year:ACL-2024,venue-ctx:ACL-ctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.emnlp-main.8__fig0001",
+      "bytes": 75148,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.emnlp-main.8__fig0002",
+      "bytes": 100377,
+      "reason": "diversity:topic:multimodal",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.emnlp-main.8__fig0003",
+      "bytes": 85941,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2024.emnlp-main.8__fig0004",
+      "bytes": 76632,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.acl-long.8__fig0001",
+      "bytes": 43950,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.acl-long.8__fig0002",
+      "bytes": 114436,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.acl-long.8__fig0003",
+      "bytes": 114042,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.acl-long.8__fig0005",
+      "bytes": 52742,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.acl-long.8__fig0006",
+      "bytes": 23726,
+      "reason": "diversity:year:2025,venue-year:ACL-2025",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.emnlp-main.8__fig0008",
+      "bytes": 53452,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.emnlp-main.8__fig0011",
+      "bytes": 19072,
+      "reason": "diversity:year:2025,venue-year:EMNLP-2025,venue-cc:EMNLP-high,overall:high",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_2025.emnlp-main.8__fig0013",
+      "bytes": 13831,
+      "reason": "diversity:venue:EMNLP,year:2025,venue-year:EMNLP-2025,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2020_adlam20a__fig0001",
+      "bytes": 32333,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2020_adlam20a__fig0002",
+      "bytes": 31821,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2020_adlam20a__fig0004",
+      "bytes": 84220,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2021_afchar21a__fig0001",
+      "bytes": 31116,
+      "reason": "diversity:venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2021_afchar21a__fig0002",
+      "bytes": 84532,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2021_afchar21a__fig0003",
+      "bytes": 25810,
+      "reason": "diversity:venue-year:ICML-2021,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2022_agarwala22a__fig0001",
+      "bytes": 36336,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2022_agarwala22a__fig0002",
+      "bytes": 29374,
+      "reason": "diversity:venue-year:ICML-2022",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2022_agarwala22a__fig0003",
+      "bytes": 38821,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2022_agarwala22a__fig0004",
+      "bytes": 28737,
+      "reason": "diversity:venue-year:ICML-2022,venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0008_icml2022_agarwala22a__fig0005",
+      "bytes": 40348,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2020.acl-main.9__fig0001",
+      "bytes": 27867,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2020.acl-main.9__fig0002",
+      "bytes": 169295,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2021.acl-long.9__fig0001",
+      "bytes": 55829,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2021.acl-long.9__fig0003",
+      "bytes": 55051,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2021.emnlp-main.9__fig0001",
+      "bytes": 24494,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2021.emnlp-main.9__fig0002",
+      "bytes": 69061,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2021.emnlp-main.9__fig0003",
+      "bytes": 39003,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.acl-long.9__fig0001",
+      "bytes": 88603,
+      "reason": "diversity:topic:multimodal",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.acl-long.9__fig0003",
+      "bytes": 19070,
+      "reason": "diversity:year:2022,venue-year:ACL-2022,venue-ctx:ACL-ctx,venue-cc:ACL-mid",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0002",
+      "bytes": 40113,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0003",
+      "bytes": 40460,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0004",
+      "bytes": 21571,
+      "reason": "diversity:year:2022,venue-year:EMNLP-2022,venue-cc:EMNLP-high,overall:high",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0006",
+      "bytes": 83069,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0007",
+      "bytes": 78920,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0008",
+      "bytes": 87137,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0009",
+      "bytes": 98408,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2022.emnlp-main.9__fig0016",
+      "bytes": 97652,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2023.acl-long.8__fig0002",
+      "bytes": 70495,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2024.acl-long.9__fig0001",
+      "bytes": 94356,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2024.acl-long.9__fig0002",
+      "bytes": 114236,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2024.emnlp-main.9__fig0001",
+      "bytes": 52823,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2024.emnlp-main.9__fig0002",
+      "bytes": 49186,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2024.emnlp-main.9__fig0004",
+      "bytes": 14795,
+      "reason": "diversity:venue:EMNLP,year:2024,venue-year:EMNLP-2024,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2025.acl-long.9__fig0002",
+      "bytes": 111837,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2025.emnlp-main.9__fig0001",
+      "bytes": 47956,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2025.emnlp-main.9__fig0003",
+      "bytes": 64997,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_2025.emnlp-main.9__fig0007",
+      "bytes": 70333,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2020_agarwal20a__fig0001",
+      "bytes": 44743,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2020_agarwal20a__fig0002",
+      "bytes": 23181,
+      "reason": "diversity:venue-year:ICML-2020,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2020_agarwal20a__fig0004",
+      "bytes": 24093,
+      "reason": "diversity:venue-year:ICML-2020,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2020_agarwal20a__fig0005",
+      "bytes": 32922,
+      "reason": "diversity:topic:computer_vision",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2022_aguiar22a__fig0001",
+      "bytes": 36014,
+      "reason": "diversity:topic:unlabeled",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2022_aguiar22a__fig0002",
+      "bytes": 33521,
+      "reason": "diversity:topic:unlabeled",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2022_aguiar22a__fig0008",
+      "bytes": 44466,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0009_icml2022_aguiar22a__fig0009",
+      "bytes": 37177,
+      "reason": "diversity:topic:unlabeled",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2020.acl-main.10__fig0001",
+      "bytes": 168841,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2020.acl-main.10__fig0002",
+      "bytes": 68773,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2021.acl-long.10__fig0003",
+      "bytes": 114948,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2021.acl-long.10__fig0005",
+      "bytes": 108064,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2022.acl-long.10__fig0003",
+      "bytes": 52336,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2022.acl-long.10__fig0004",
+      "bytes": 39614,
+      "reason": "diversity:venue-year:ACL-2022,venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2022.acl-long.10__fig0005",
+      "bytes": 43529,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2022.acl-long.10__fig0006",
+      "bytes": 40971,
+      "reason": "diversity:venue-year:ACL-2022,venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2022.acl-long.10__fig0007",
+      "bytes": 43146,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2022.emnlp-main.10__fig0003",
+      "bytes": 41422,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0009",
+      "bytes": 20353,
+      "reason": "diversity:year:2023,venue-year:ACL-2023,venue-cc:ACL-mid,hardcc",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0010",
+      "bytes": 69659,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0013",
+      "bytes": 120910,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0014",
+      "bytes": 120137,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0015",
+      "bytes": 118949,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0016",
+      "bytes": 30852,
+      "reason": "diversity:venue-year:ACL-2023",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0017",
+      "bytes": 72922,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0018",
+      "bytes": 45777,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0019",
+      "bytes": 54763,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0020",
+      "bytes": 94638,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0021",
+      "bytes": 112134,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0022",
+      "bytes": 51091,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0023",
+      "bytes": 55958,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0024",
+      "bytes": 44948,
+      "reason": "diversity:venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0025",
+      "bytes": 39438,
+      "reason": "diversity:venue-year:ACL-2023",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2023.acl-long.9__fig0028",
+      "bytes": 32898,
+      "reason": "diversity:venue-year:ACL-2023,venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2024.acl-long.10__fig0001",
+      "bytes": 116202,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2024.acl-long.10__fig0002",
+      "bytes": 62078,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2024.acl-long.10__fig0003",
+      "bytes": 41325,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2024.acl-long.10__fig0005",
+      "bytes": 34848,
+      "reason": "diversity:venue-cc:ACL-low",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2025.acl-long.10__fig0001",
+      "bytes": 122317,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2025.emnlp-main.10__fig0002",
+      "bytes": 19530,
+      "reason": "diversity:year:2025,venue-year:EMNLP-2025,venue-cc:EMNLP-mid,hardcc",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2025.emnlp-main.10__fig0004",
+      "bytes": 16449,
+      "reason": "diversity:venue:EMNLP,year:2025,venue-year:EMNLP-2025,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_2025.emnlp-main.10__fig0007",
+      "bytes": 17640,
+      "reason": "diversity:venue:EMNLP,year:2025,venue-year:EMNLP-2025,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2020_agarwal20b__fig0001",
+      "bytes": 121241,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2020_agarwal20b__fig0002",
+      "bytes": 55571,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0001",
+      "bytes": 127350,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0002",
+      "bytes": 67150,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0003",
+      "bytes": 83474,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0004",
+      "bytes": 29509,
+      "reason": "diversity:venue-year:ICML-2022,venue-ctx:ICML-ctx,venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0005",
+      "bytes": 34654,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0006",
+      "bytes": 35291,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0007",
+      "bytes": 36138,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0010_icml2022_agussurja22a__fig0008",
+      "bytes": 40103,
+      "reason": "diversity:venue-ctx:ICML-ctx,topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2020.acl-main.11__fig0001",
+      "bytes": 50558,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2020.acl-main.11__fig0002",
+      "bytes": 70007,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2020.acl-main.11__fig0003",
+      "bytes": 136727,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2020.acl-main.11__fig0004",
+      "bytes": 140873,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2021.emnlp-main.11__fig0001",
+      "bytes": 83492,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2021.emnlp-main.11__fig0003",
+      "bytes": 37447,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2022.acl-long.11__fig0001",
+      "bytes": 80286,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2022.acl-long.11__fig0002",
+      "bytes": 33456,
+      "reason": "diversity:venue-year:ACL-2022",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2022.acl-long.11__fig0003",
+      "bytes": 110225,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2022.acl-long.11__fig0004",
+      "bytes": 101459,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2023.acl-long.10__fig0001",
+      "bytes": 108081,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2023.acl-long.10__fig0002",
+      "bytes": 63261,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0001",
+      "bytes": 50304,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0002",
+      "bytes": 64271,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0003",
+      "bytes": 19895,
+      "reason": "diversity:year:2024,venue-year:EMNLP-2024,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0004",
+      "bytes": 58464,
+      "reason": "diversity:topic:multimodal",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0005",
+      "bytes": 61763,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0006",
+      "bytes": 23816,
+      "reason": "diversity:venue-year:EMNLP-2024,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0007",
+      "bytes": 14598,
+      "reason": "diversity:venue:EMNLP,year:2024,venue-year:EMNLP-2024,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0010",
+      "bytes": 36643,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0011",
+      "bytes": 47643,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0012",
+      "bytes": 31054,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2024.emnlp-main.11__fig0013",
+      "bytes": 92876,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.acl-long.11__fig0001",
+      "bytes": 23616,
+      "reason": "diversity:year:2025,venue-year:ACL-2025,venue-cc:ACL-mid,topic:unlabeled",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.acl-long.11__fig0004",
+      "bytes": 101370,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.acl-long.11__fig0005",
+      "bytes": 41727,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.acl-long.11__fig0006",
+      "bytes": 65244,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.acl-long.11__fig0007",
+      "bytes": 76885,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.acl-long.11__fig0014",
+      "bytes": 91967,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.emnlp-main.11__fig0001",
+      "bytes": 56640,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.emnlp-main.11__fig0003",
+      "bytes": 71910,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0011_2025.emnlp-main.11__fig0004",
+      "bytes": 88721,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2020.acl-main.12__fig0003",
+      "bytes": 19461,
+      "reason": "diversity:year:2020,venue-year:ACL-2020,venue-cc:ACL-mid",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2020.acl-main.12__fig0004",
+      "bytes": 47461,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2021.emnlp-main.12__fig0001",
+      "bytes": 22485,
+      "reason": "diversity:year:2021,venue-year:EMNLP-2021,venue-cc:EMNLP-low,mr:low",
+      "venue": "EMNLP",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2022.acl-long.12__fig0001",
+      "bytes": 79407,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2023.acl-long.11__fig0001",
+      "bytes": 34246,
+      "reason": "diversity:venue-year:ACL-2023",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2023.acl-long.11__fig0002",
+      "bytes": 22951,
+      "reason": "diversity:year:2023,venue-year:ACL-2023,venue-cc:ACL-high",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_2024.emnlp-main.12__fig0002",
+      "bytes": 48027,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_icml2020_agrawal20a__fig0001",
+      "bytes": 43063,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0012_icml2022_ahn22a__fig0001",
+      "bytes": 35296,
+      "reason": "diversity:venue-ctx:ICML-ctx,topic:unlabeled",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2020.acl-main.13__fig0001",
+      "bytes": 53195,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2024.acl-long.13__fig0001",
+      "bytes": 88117,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2024.acl-long.13__fig0002",
+      "bytes": 36720,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2024.acl-long.13__fig0004",
+      "bytes": 105391,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2024.acl-long.13__fig0006",
+      "bytes": 23903,
+      "reason": "diversity:venue-ctx:ACL-noctx,venue-cc:ACL-low",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2024.acl-long.13__fig0007",
+      "bytes": 52344,
+      "reason": "diversity:venue-ctx:ACL-noctx",
+      "venue": "ACL",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2025.acl-long.13__fig0002",
+      "bytes": 97621,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2025.acl-long.13__fig0003",
+      "bytes": 97206,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_2025.acl-long.13__fig0004",
+      "bytes": 65532,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0001",
+      "bytes": 13841,
+      "reason": "diversity:venue:ICML,year:2022,venue-year:ICML-2022,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0002",
+      "bytes": 16095,
+      "reason": "diversity:venue:ICML,year:2022,venue-year:ICML-2022,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0003",
+      "bytes": 76181,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0004",
+      "bytes": 13745,
+      "reason": "diversity:venue:ICML,year:2022,venue-year:ICML-2022,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0005",
+      "bytes": 7426,
+      "reason": "diversity:venue:ICML,year:2022,venue-year:ICML-2022,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0008",
+      "bytes": 265202,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0009",
+      "bytes": 273032,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0013_icml2022_akbari22a__fig0010",
+      "bytes": 39096,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2020.acl-main.14__fig0001",
+      "bytes": 138601,
+      "reason": "fill",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2020.acl-main.14__fig0002",
+      "bytes": 54059,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2020.acl-main.14__fig0004",
+      "bytes": 20799,
+      "reason": "diversity:year:2020,venue-year:ACL-2020,venue-cc:ACL-mid,hardcc",
+      "venue": "ACL",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2024.emnlp-main.14__fig0002",
+      "bytes": 26355,
+      "reason": "diversity:venue-year:EMNLP-2024",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2024.emnlp-main.14__fig0003",
+      "bytes": 38243,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2025.acl-long.14__fig0001",
+      "bytes": 38114,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2025.acl-long.14__fig0003",
+      "bytes": 26643,
+      "reason": "diversity:venue-year:ACL-2025",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2025.acl-long.14__fig0004",
+      "bytes": 21202,
+      "reason": "diversity:year:2025,venue-year:ACL-2025,venue-cc:ACL-mid,hardcc",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_2025.acl-long.14__fig0005",
+      "bytes": 19211,
+      "reason": "diversity:year:2025,venue-year:ACL-2025,venue-ctx:ACL-ctx,venue-cc:ACL-mid",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_icml2022_alaa22a__fig0002",
+      "bytes": 67446,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_icml2022_alaa22a__fig0003",
+      "bytes": 165137,
+      "reason": "diversity:topic:multimodal",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_icml2022_alaa22a__fig0004",
+      "bytes": 124016,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0014_icml2022_alaa22a__fig0006",
+      "bytes": 47275,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0015_icml2022_alacaoglu22a__fig0001",
+      "bytes": 87788,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0015_icml2022_alacaoglu22a__fig0002",
+      "bytes": 60788,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0021_2023.acl-long.20__fig0002",
+      "bytes": 80831,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0025_2025.acl-long.25__fig0001",
+      "bytes": 108843,
+      "reason": "fill:ACL",
+      "venue": "ACL",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0DkaimvWs0__fig0002",
+      "bytes": 45370,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0DkaimvWs0__fig0003",
+      "bytes": 39465,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0DkaimvWs0__fig0004",
+      "bytes": 31169,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0DkaimvWs0__fig0005",
+      "bytes": 34088,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0001",
+      "bytes": 23943,
+      "reason": "diversity:venue-year:ICML-2024,venue-cc:ICML-high,overall:high,topic:computer_vision",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0002",
+      "bytes": 19259,
+      "reason": "diversity:venue:ICML,year:2024,venue-year:ICML-2024,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0003",
+      "bytes": 27038,
+      "reason": "diversity:venue-year:ICML-2024",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0005",
+      "bytes": 36434,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0008",
+      "bytes": 47557,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0009",
+      "bytes": 115467,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0010",
+      "bytes": 8245,
+      "reason": "diversity:venue:ICML,year:2024,venue-year:ICML-2024,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0011",
+      "bytes": 34180,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0012",
+      "bytes": 38814,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0013",
+      "bytes": 70173,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0f4u3Wg9zT__fig0017",
+      "bytes": 46741,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0lNwIIHWhZ__fig0001",
+      "bytes": 96045,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0lzmTb4LGd3F__fig0001",
+      "bytes": 64052,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0lzmTb4LGd3F__fig0002",
+      "bytes": 56744,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0lzmTb4LGd3F__fig0003",
+      "bytes": 116003,
+      "reason": "diversity:topic:speech_audio",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0lzmTb4LGd3F__fig0004",
+      "bytes": 75685,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0XeNkkENuI__fig0001",
+      "bytes": 59652,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "0XeNkkENuI__fig0005",
+      "bytes": 46749,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1D4eWCdaTxh__fig0005",
+      "bytes": 40263,
+      "reason": "diversity:venue-cc:NeurIPS-low,overall:low",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1D4eWCdaTxh__fig0006",
+      "bytes": 73348,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1D4eWCdaTxh__fig0007",
+      "bytes": 61970,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1D4eWCdaTxh__fig0008",
+      "bytes": 41327,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1dpmeH6IHa__fig0005",
+      "bytes": 82459,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1dpmeH6IHa__fig0006",
+      "bytes": 103095,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1ojAkTylz4__fig0001",
+      "bytes": 32647,
+      "reason": "diversity:venue-year:NeurIPS-2024,venue-cc:NeurIPS-low,topic:unlabeled",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1ojAkTylz4__fig0006",
+      "bytes": 108211,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1ojAkTylz4__fig0007",
+      "bytes": 115449,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1ojAkTylz4__fig0010",
+      "bytes": 39267,
+      "reason": "diversity:venue-cc:NeurIPS-low,overall:low,mr:low,topic:unlabeled",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1tIUqrUuJxx__fig0001",
+      "bytes": 198295,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1tIUqrUuJxx__fig0002",
+      "bytes": 15681,
+      "reason": "diversity:venue:NeurIPS,year:2022,venue-year:NeurIPS-2022,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0001",
+      "bytes": 91604,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0002",
+      "bytes": 46269,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0003",
+      "bytes": 71224,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0004",
+      "bytes": 100857,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0005",
+      "bytes": 88334,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0006",
+      "bytes": 41081,
+      "reason": "diversity:venue-year:NeurIPS-2023",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0007",
+      "bytes": 59052,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0008",
+      "bytes": 43228,
+      "reason": "diversity:venue-year:NeurIPS-2023,mr:low",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0010",
+      "bytes": 78448,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0011",
+      "bytes": 68628,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0012",
+      "bytes": 60027,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0013",
+      "bytes": 69525,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0014",
+      "bytes": 60342,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0015",
+      "bytes": 43659,
+      "reason": "diversity:venue-year:NeurIPS-2023",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0016",
+      "bytes": 33691,
+      "reason": "diversity:venue-year:NeurIPS-2023",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "1vzF4zWQ1E__fig0017",
+      "bytes": 62487,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2aotKzkOCm__fig0002",
+      "bytes": 103656,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2aotKzkOCm__fig0003",
+      "bytes": 89341,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2aotKzkOCm__fig0004",
+      "bytes": 88787,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2aotKzkOCm__fig0007",
+      "bytes": 72451,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2bUddKNVf8__fig0002",
+      "bytes": 105354,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2bUddKNVf8__fig0003",
+      "bytes": 66312,
+      "reason": "diversity:venue-year:ICML-2023",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2bUddKNVf8__fig0004",
+      "bytes": 119447,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2nWUNTnFijm__fig0001",
+      "bytes": 52303,
+      "reason": "diversity:venue-year:NeurIPS-2022",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2nWUNTnFijm__fig0002",
+      "bytes": 83543,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2nWUNTnFijm__fig0003",
+      "bytes": 84502,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2xbkWiEuR1__fig0001",
+      "bytes": 38565,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2xbkWiEuR1__fig0002",
+      "bytes": 63384,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2xbkWiEuR1__fig0003",
+      "bytes": 39245,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2xbkWiEuR1__fig0004",
+      "bytes": 24894,
+      "reason": "diversity:venue-year:ICML-2024,venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2xbkWiEuR1__fig0008",
+      "bytes": 122872,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2Y93PtAqCl__fig0002",
+      "bytes": 50646,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "2Y93PtAqCl__fig0004",
+      "bytes": 56876,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0001",
+      "bytes": 44440,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0002",
+      "bytes": 24611,
+      "reason": "diversity:year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0003",
+      "bytes": 105816,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0006",
+      "bytes": 23971,
+      "reason": "diversity:year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0007",
+      "bytes": 25199,
+      "reason": "diversity:year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0008",
+      "bytes": 27284,
+      "reason": "diversity:year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0009",
+      "bytes": 32861,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "30kbnyD9hF__fig0011",
+      "bytes": 100452,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "31H0gfU8Ar__fig0004",
+      "bytes": 120439,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "31H0gfU8Ar__fig0006",
+      "bytes": 97634,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3bgzJQizcg__fig0002",
+      "bytes": 57763,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3CPPD2TF1rw__fig0001",
+      "bytes": 50094,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3CPPD2TF1rw__fig0002",
+      "bytes": 54709,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3CPPD2TF1rw__fig0005",
+      "bytes": 104282,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3CPPD2TF1rw__fig0006",
+      "bytes": 54043,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3CPPD2TF1rw__fig0008",
+      "bytes": 75247,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0001",
+      "bytes": 60013,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0002",
+      "bytes": 33878,
+      "reason": "diversity:venue-year:NeurIPS-2024,topic:multimodal",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0003",
+      "bytes": 34501,
+      "reason": "diversity:topic:multimodal",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0004",
+      "bytes": 32929,
+      "reason": "diversity:venue-year:NeurIPS-2024,venue-cc:NeurIPS-low,overall:low,mr:low",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0005",
+      "bytes": 35723,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0006",
+      "bytes": 78385,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0007",
+      "bytes": 38027,
+      "reason": "diversity:venue-cc:NeurIPS-low",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0008",
+      "bytes": 34993,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0009",
+      "bytes": 33689,
+      "reason": "diversity:venue-year:NeurIPS-2024,venue-cc:NeurIPS-mid,topic:multimodal",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ivnixHy16__fig0010",
+      "bytes": 136879,
+      "reason": "diversity:topic:multimodal",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0001",
+      "bytes": 49865,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0003",
+      "bytes": 47886,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0004",
+      "bytes": 64308,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0005",
+      "bytes": 56569,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0006",
+      "bytes": 60191,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0010",
+      "bytes": 54220,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0011",
+      "bytes": 38578,
+      "reason": "diversity:venue-year:NeurIPS-2025,venue-ctx:NeurIPS-noctx,venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0012",
+      "bytes": 61328,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0013",
+      "bytes": 68648,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0014",
+      "bytes": 57032,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0015",
+      "bytes": 50667,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0016",
+      "bytes": 55714,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3ln8F2nOuA__fig0017",
+      "bytes": 60827,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0002",
+      "bytes": 36136,
+      "reason": "diversity:venue-cc:NeurIPS-low",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0003",
+      "bytes": 66448,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0004",
+      "bytes": 92001,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0005",
+      "bytes": 107348,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0006",
+      "bytes": 57677,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0007",
+      "bytes": 55235,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0011",
+      "bytes": 113504,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0012",
+      "bytes": 108440,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0013",
+      "bytes": 53459,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0014",
+      "bytes": 103113,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "3qUks3wrnH__fig0015",
+      "bytes": 86325,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4-Py8BiJwHI__fig0002",
+      "bytes": 31164,
+      "reason": "diversity:venue-year:NeurIPS-2021,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "46WcPRhRwG__fig0001",
+      "bytes": 78782,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "46WcPRhRwG__fig0002",
+      "bytes": 55485,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "46WcPRhRwG__fig0004",
+      "bytes": 35109,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0001",
+      "bytes": 37515,
+      "reason": "diversity:venue-cc:NeurIPS-high,topic:computer_vision",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0002",
+      "bytes": 140172,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0003",
+      "bytes": 58157,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0004",
+      "bytes": 36359,
+      "reason": "diversity:topic:computer_vision",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0005",
+      "bytes": 23376,
+      "reason": "diversity:venue:NeurIPS,venue-year:NeurIPS-2024,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0006",
+      "bytes": 85087,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0007",
+      "bytes": 40917,
+      "reason": "diversity:venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0008",
+      "bytes": 42320,
+      "reason": "diversity:topic:computer_vision",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0010",
+      "bytes": 43438,
+      "reason": "diversity:venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bKEFyUHT4__fig0011",
+      "bytes": 19901,
+      "reason": "diversity:venue:NeurIPS,venue-year:NeurIPS-2024,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bzanicqvy8__fig0001",
+      "bytes": 13271,
+      "reason": "diversity:venue:NeurIPS,year:2021,venue-year:NeurIPS-2021,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4bzanicqvy8__fig0002",
+      "bytes": 27820,
+      "reason": "diversity:venue:NeurIPS,venue-year:NeurIPS-2021,venue-ctx:NeurIPS-noctx,venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4FzDdOjkYQH__fig0002",
+      "bytes": 31342,
+      "reason": "diversity:venue-year:EMNLP-2020,overall:low",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4FzDdOjkYQH__fig0003",
+      "bytes": 26799,
+      "reason": "diversity:venue-year:EMNLP-2020,venue-ctx:EMNLP-ctx",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4G2dEuRZ7eO__fig0001",
+      "bytes": 59334,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4G2dEuRZ7eO__fig0002",
+      "bytes": 76479,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4MVO83I9lvg__fig0002",
+      "bytes": 33994,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4MVO83I9lvg__fig0003",
+      "bytes": 29549,
+      "reason": "diversity:venue-year:EMNLP-2020,venue-ctx:EMNLP-ctx",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4MVO83I9lvg__fig0004",
+      "bytes": 23653,
+      "reason": "diversity:venue-year:EMNLP-2020,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-high",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4n1tn6cltJY__fig0001",
+      "bytes": 64544,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4n1tn6cltJY__fig0002",
+      "bytes": 19709,
+      "reason": "diversity:year:2020,venue-year:EMNLP-2020,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-mid",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4n1tn6cltJY__fig0003",
+      "bytes": 92215,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4SsNofUQf1__fig0001",
+      "bytes": 45227,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4SsNofUQf1__fig0004",
+      "bytes": 82724,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4SsNofUQf1__fig0007",
+      "bytes": 45156,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "4SsNofUQf1__fig0008",
+      "bytes": 33332,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5-GXHFNbq_U__fig0002",
+      "bytes": 92905,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0002",
+      "bytes": 78824,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0005",
+      "bytes": 63260,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0006",
+      "bytes": 78472,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0009",
+      "bytes": 15385,
+      "reason": "diversity:venue:NeurIPS,year:2024,venue-year:NeurIPS-2024,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0010",
+      "bytes": 68102,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0011",
+      "bytes": 30856,
+      "reason": "diversity:venue-year:NeurIPS-2024,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5H4l37IsZ8__fig0012",
+      "bytes": 46324,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5jk0u2QhSXV__fig0003",
+      "bytes": 25525,
+      "reason": "diversity:venue-year:EMNLP-2020",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5jk0u2QhSXV__fig0004",
+      "bytes": 29822,
+      "reason": "diversity:venue-year:EMNLP-2020,venue-ctx:EMNLP-ctx",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5jk0u2QhSXV__fig0007",
+      "bytes": 60670,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5jk0u2QhSXV__fig0008",
+      "bytes": 81967,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5JrlywYHRi__fig0002",
+      "bytes": 18638,
+      "reason": "diversity:venue:ICML,year:2024,venue-year:ICML-2024,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5JrlywYHRi__fig0003",
+      "bytes": 21363,
+      "reason": "diversity:venue:ICML,venue-year:ICML-2024,venue-ctx:ICML-noctx,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5JvnsAdf6Vz__fig0001",
+      "bytes": 79048,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5JvnsAdf6Vz__fig0002",
+      "bytes": 26091,
+      "reason": "diversity:venue:NeurIPS,venue-year:NeurIPS-2021,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5JvnsAdf6Vz__fig0003",
+      "bytes": 48311,
+      "reason": "paper_case:Ex-H",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": "Ex-H"
+    },
+    {
+      "figure_id": "5kThooa07pf__fig0002",
+      "bytes": 65355,
+      "reason": "diversity:venue-year:NeurIPS-2022",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5kThooa07pf__fig0003",
+      "bytes": 35266,
+      "reason": "diversity:venue-year:NeurIPS-2022",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5kThooa07pf__fig0005",
+      "bytes": 43051,
+      "reason": "diversity:venue-year:NeurIPS-2022",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5kThooa07pf__fig0006",
+      "bytes": 100066,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5PiZevq9fY__fig0005",
+      "bytes": 66391,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5PiZevq9fY__fig0009",
+      "bytes": 50313,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "5PiZevq9fY__fig0010",
+      "bytes": 26744,
+      "reason": "diversity:venue-year:ICML-2025,venue-cc:ICML-high,topic:unlabeled",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6Kg9p8URlj__fig0001",
+      "bytes": 85867,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6Kg9p8URlj__fig0002",
+      "bytes": 41759,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6Kg9p8URlj__fig0004",
+      "bytes": 21405,
+      "reason": "diversity:venue-year:ICML-2024,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6PVUY0FhbG__fig0001",
+      "bytes": 110566,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6PVUY0FhbG__fig0002",
+      "bytes": 90515,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6PVUY0FhbG__fig0004",
+      "bytes": 53421,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6ugK-RQhIP5__fig0001",
+      "bytes": 47873,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6ugK-RQhIP5__fig0002",
+      "bytes": 80469,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "6ugK-RQhIP5__fig0003",
+      "bytes": 42511,
+      "reason": "diversity:venue-year:NeurIPS-2021",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7_M2f2DEIEK__fig0001",
+      "bytes": 68984,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7DueCuvmgM__fig0002",
+      "bytes": 143017,
+      "reason": "diversity:topic:multimodal",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7DueCuvmgM__fig0005",
+      "bytes": 16997,
+      "reason": "diversity:venue:EMNLP,year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7kQjbCQwtT__fig0001",
+      "bytes": 98246,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7kQjbCQwtT__fig0002",
+      "bytes": 58328,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7kQjbCQwtT__fig0004",
+      "bytes": 29075,
+      "reason": "diversity:venue-year:NeurIPS-2025,venue-ctx:NeurIPS-noctx,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0002",
+      "bytes": 101800,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0003",
+      "bytes": 45516,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0004",
+      "bytes": 98558,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0005",
+      "bytes": 103150,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0006",
+      "bytes": 95806,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0007",
+      "bytes": 103107,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0008",
+      "bytes": 89666,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0009",
+      "bytes": 104072,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0010",
+      "bytes": 93773,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0011",
+      "bytes": 105276,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0012",
+      "bytes": 96187,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0013",
+      "bytes": 45559,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7pufO0SJAC__fig0014",
+      "bytes": 45076,
+      "reason": "diversity:venue-year:NeurIPS-2025,topic:reinforcement_learning",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7PXSc5fURu__fig0001",
+      "bytes": 70333,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7PXSc5fURu__fig0002",
+      "bytes": 39973,
+      "reason": "diversity:venue-cc:ICML-low,topic:reinforcement_learning",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7PXSc5fURu__fig0003",
+      "bytes": 102333,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7TLjOO4cvm__fig0001",
+      "bytes": 45171,
+      "reason": "diversity:venue-year:ICML-2023,venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7TLjOO4cvm__fig0002",
+      "bytes": 41619,
+      "reason": "diversity:venue-year:ICML-2023,venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7TLjOO4cvm__fig0003",
+      "bytes": 117561,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7TLjOO4cvm__fig0004",
+      "bytes": 103086,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "7TLjOO4cvm__fig0005",
+      "bytes": 134506,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "80RnitDehg___fig0002",
+      "bytes": 63266,
+      "reason": "diversity:venue-year:NeurIPS-2022",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "80RnitDehg___fig0003",
+      "bytes": 75258,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0001",
+      "bytes": 42346,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0002",
+      "bytes": 63893,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0003",
+      "bytes": 30114,
+      "reason": "diversity:venue-year:ICML-2025",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0004",
+      "bytes": 41713,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0005",
+      "bytes": 82804,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0006",
+      "bytes": 28317,
+      "reason": "diversity:venue-year:ICML-2025",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0007",
+      "bytes": 32910,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0008",
+      "bytes": 69439,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0009",
+      "bytes": 78477,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0010",
+      "bytes": 48774,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0011",
+      "bytes": 36722,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0012",
+      "bytes": 26682,
+      "reason": "diversity:venue-year:ICML-2025,venue-cc:ICML-mid",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0013",
+      "bytes": 66956,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "83VDYpSd8R__fig0014",
+      "bytes": 33774,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Dkz60yGfj__fig0001",
+      "bytes": 98064,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Dkz60yGfj__fig0003",
+      "bytes": 39442,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Flpo0zaaO__fig0001",
+      "bytes": 54171,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Flpo0zaaO__fig0002",
+      "bytes": 73746,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8jFiomKUnaT__fig0001",
+      "bytes": 47477,
+      "reason": "diversity:venue-year:NeurIPS-2021",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8jFiomKUnaT__fig0002",
+      "bytes": 37932,
+      "reason": "diversity:venue-year:NeurIPS-2021,topic:unlabeled",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8jFiomKUnaT__fig0003",
+      "bytes": 49821,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8JMexYVcXB__fig0003",
+      "bytes": 46260,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0001",
+      "bytes": 87294,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0002",
+      "bytes": 106931,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0004",
+      "bytes": 65778,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0005",
+      "bytes": 128295,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0006",
+      "bytes": 46773,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0007",
+      "bytes": 116378,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0009",
+      "bytes": 109899,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0010",
+      "bytes": 65738,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0011",
+      "bytes": 61804,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0012",
+      "bytes": 101874,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0016",
+      "bytes": 130391,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0017",
+      "bytes": 126832,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0019",
+      "bytes": 76542,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0020",
+      "bytes": 132974,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0021",
+      "bytes": 58270,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0022",
+      "bytes": 58586,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0024",
+      "bytes": 47906,
+      "reason": "diversity:venue-ctx:ICML-ctx",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8NfHmzo0Op__fig0025",
+      "bytes": 31329,
+      "reason": "diversity:venue-ctx:ICML-ctx,venue-cc:ICML-high",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0001",
+      "bytes": 60313,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0002",
+      "bytes": 104159,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0003",
+      "bytes": 83191,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0004",
+      "bytes": 106961,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0006",
+      "bytes": 100020,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0007",
+      "bytes": 111317,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0008",
+      "bytes": 26028,
+      "reason": "diversity:venue:NeurIPS,venue-year:NeurIPS-2025,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0009",
+      "bytes": 46837,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0010",
+      "bytes": 63183,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0011",
+      "bytes": 98081,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0012",
+      "bytes": 109086,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0013",
+      "bytes": 29274,
+      "reason": "diversity:venue-year:NeurIPS-2025,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0014",
+      "bytes": 28131,
+      "reason": "diversity:venue-year:NeurIPS-2025,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0015",
+      "bytes": 94436,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0016",
+      "bytes": 77326,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0017",
+      "bytes": 84345,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0018",
+      "bytes": 87094,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0019",
+      "bytes": 35939,
+      "reason": "diversity:venue-year:NeurIPS-2025,venue-cc:NeurIPS-high,topic:multimodal",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8OGTkEJrmb__fig0021",
+      "bytes": 24908,
+      "reason": "diversity:venue:NeurIPS,year:2025,venue-year:NeurIPS-2025,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8p8GLwqL1f__fig0002",
+      "bytes": 37200,
+      "reason": "diversity:venue-year:ICML-2023,venue-cc:ICML-low",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8p8GLwqL1f__fig0003",
+      "bytes": 42092,
+      "reason": "diversity:venue-year:ICML-2023",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8p8GLwqL1f__fig0005",
+      "bytes": 33567,
+      "reason": "diversity:venue-year:ICML-2023",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8p8GLwqL1f__fig0007",
+      "bytes": 46854,
+      "reason": "diversity:venue-year:ICML-2023",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Rs9OO_ly-6__fig0002",
+      "bytes": 81120,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Rs9OO_ly-6__fig0003",
+      "bytes": 29523,
+      "reason": "diversity:venue-year:NeurIPS-2020,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8Rs9OO_ly-6__fig0004",
+      "bytes": 38389,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8rZYMpFUgK__fig0001",
+      "bytes": 142855,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8rZYMpFUgK__fig0002",
+      "bytes": 45098,
+      "reason": "diversity:venue-year:NeurIPS-2022",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8rZYMpFUgK__fig0003",
+      "bytes": 41058,
+      "reason": "diversity:venue-year:NeurIPS-2022,venue-cc:NeurIPS-low",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8rZYMpFUgK__fig0006",
+      "bytes": 71822,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8SQaWY2TxBa__fig0006",
+      "bytes": 21099,
+      "reason": "diversity:venue:NeurIPS,year:2020,venue-year:NeurIPS-2020,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8SQaWY2TxBa__fig0007",
+      "bytes": 75010,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8tE4DkYUex__fig0002",
+      "bytes": 21372,
+      "reason": "diversity:year:2025,venue-year:ICML-2025,venue-cc:ICML-low,overall:low",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8tE4DkYUex__fig0003",
+      "bytes": 38144,
+      "reason": "diversity:topic:computer_vision",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "8tE4DkYUex__fig0005",
+      "bytes": 103139,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0002",
+      "bytes": 62705,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0003",
+      "bytes": 36306,
+      "reason": "diversity:venue-year:NeurIPS-2023",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0004",
+      "bytes": 15773,
+      "reason": "diversity:venue:NeurIPS,year:2023,venue-year:NeurIPS-2023,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0005",
+      "bytes": 52424,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0007",
+      "bytes": 29321,
+      "reason": "diversity:year:2023,venue-year:NeurIPS-2023,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0008",
+      "bytes": 51582,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0009",
+      "bytes": 51325,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0010",
+      "bytes": 60121,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9EndFTDiqh__fig0011",
+      "bytes": 16268,
+      "reason": "diversity:venue:NeurIPS,year:2023,venue-year:NeurIPS-2023,venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9Muli2zoFn__fig0002",
+      "bytes": 45488,
+      "reason": "diversity:venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9Muli2zoFn__fig0005",
+      "bytes": 62016,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "9uRS5ysgb9__fig0002",
+      "bytes": 151105,
+      "reason": "diversity:topic:multimodal",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AA0qGRIfPn__fig0003",
+      "bytes": 98407,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AA0qGRIfPn__fig0005",
+      "bytes": 88839,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AgAn6xtwWO__fig0001",
+      "bytes": 87601,
+      "reason": "diversity:topic:multimodal",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AgAn6xtwWO__fig0002",
+      "bytes": 48660,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AgAn6xtwWO__fig0003",
+      "bytes": 26560,
+      "reason": "diversity:venue-year:ICML-2025,venue-cc:ICML-high,overall:high",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AgAn6xtwWO__fig0004",
+      "bytes": 52663,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AUz5Oig77OS__fig0004",
+      "bytes": 77874,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2022,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AV3iZlDrzF__fig0005",
+      "bytes": 73584,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AV3iZlDrzF__fig0006",
+      "bytes": 113880,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "AV3iZlDrzF__fig0007",
+      "bytes": 81527,
+      "reason": "diversity:topic:graph_learning",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0001",
+      "bytes": 132127,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0002",
+      "bytes": 74949,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0004",
+      "bytes": 37964,
+      "reason": "diversity:venue-cc:ICML-low",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0005",
+      "bytes": 39991,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0006",
+      "bytes": 9734,
+      "reason": "diversity:venue:ICML,year:2025,venue-year:ICML-2025,venue-ctx:ICML-noctx",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0010",
+      "bytes": 88192,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Aycl60Rhbt__fig0011",
+      "bytes": 26254,
+      "reason": "diversity:venue-year:ICML-2025,venue-cc:ICML-mid,topic:computer_vision",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "B7lygdSDii__fig0004",
+      "bytes": 108641,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "BxqPN7KuQS__fig0003",
+      "bytes": 95167,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "C00gxSl1qUp__fig0001",
+      "bytes": 38097,
+      "reason": "diversity:venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "C00gxSl1qUp__fig0002",
+      "bytes": 52805,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "C00gxSl1qUp__fig0005",
+      "bytes": 27823,
+      "reason": "diversity:venue-year:NeurIPS-2020,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-high,overall:high",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "C00gxSl1qUp__fig0006",
+      "bytes": 22252,
+      "reason": "diversity:venue:NeurIPS,year:2020,venue-year:NeurIPS-2020,venue-ctx:NeurIPS-ctx",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "C00gxSl1qUp__fig0007",
+      "bytes": 29519,
+      "reason": "diversity:venue-year:NeurIPS-2020,venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "C00gxSl1qUp__fig0008",
+      "bytes": 31911,
+      "reason": "diversity:venue-year:NeurIPS-2020,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Ca7Qlr30HC__fig0002",
+      "bytes": 59991,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "CD2xl1L5es__fig0001",
+      "bytes": 57631,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "CD2xl1L5es__fig0003",
+      "bytes": 78019,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "CD2xl1L5es__fig0006",
+      "bytes": 41039,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Cn7d_BHE-s__fig0001",
+      "bytes": 49387,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Cn7d_BHE-s__fig0003",
+      "bytes": 72921,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Dbaxm9ujq6__fig0004",
+      "bytes": 69348,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Dbaxm9ujq6__fig0005",
+      "bytes": 97184,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Dbaxm9ujq6__fig0006",
+      "bytes": 97226,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Dbaxm9ujq6__fig0007",
+      "bytes": 96074,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "DTyMi3ReQU__fig0001",
+      "bytes": 38084,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "DTyMi3ReQU__fig0003",
+      "bytes": 12769,
+      "reason": "diversity:venue:EMNLP,year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-noctx",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "DTyMi3ReQU__fig0006",
+      "bytes": 56433,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "DTyMi3ReQU__fig0007",
+      "bytes": 79444,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "DTyMi3ReQU__fig0008",
+      "bytes": 28383,
+      "reason": "diversity:year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-high",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "DTyMi3ReQU__fig0009",
+      "bytes": 35521,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "E3OyTXPZPSI__fig0001",
+      "bytes": 77537,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "E3OyTXPZPSI__fig0002",
+      "bytes": 100545,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "EdBiajkU3B__fig0005",
+      "bytes": 34942,
+      "reason": "diversity:venue-cc:NeurIPS-high",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "EdBiajkU3B__fig0006",
+      "bytes": 34136,
+      "reason": "diversity:venue-year:NeurIPS-2020,venue-cc:NeurIPS-low,overall:low,mr:low",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "EhStXG4dCS__fig0001",
+      "bytes": 31560,
+      "reason": "diversity:topic:computer_vision",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "EhStXG4dCS__fig0002",
+      "bytes": 52904,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "EhStXG4dCS__fig0003",
+      "bytes": 92748,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "EhStXG4dCS__fig0004",
+      "bytes": 69685,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Ek87791lcO__fig0001",
+      "bytes": 100643,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Ek87791lcO__fig0004",
+      "bytes": 302105,
+      "reason": "diversity:topic:speech_audio",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Ek87791lcO__fig0005",
+      "bytes": 104652,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "FghDWBBsIm__fig0003",
+      "bytes": 79144,
+      "reason": "diversity:topic:reinforcement_learning",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "FghDWBBsIm__fig0004",
+      "bytes": 30829,
+      "reason": "diversity:venue-cc:EMNLP-high",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "FghDWBBsIm__fig0005",
+      "bytes": 48723,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "G90wYdeWqnI__fig0001",
+      "bytes": 94648,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "G90wYdeWqnI__fig0002",
+      "bytes": 23411,
+      "reason": "diversity:venue:NeurIPS,venue-year:NeurIPS-2020,venue-ctx:NeurIPS-ctx,venue-cc:NeurIPS-mid",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "G90wYdeWqnI__fig0003",
+      "bytes": 114262,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "G90wYdeWqnI__fig0004",
+      "bytes": 83276,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "G90wYdeWqnI__fig0005",
+      "bytes": 81338,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "G90wYdeWqnI__fig0008",
+      "bytes": 48413,
+      "reason": "diversity:venue-ctx:NeurIPS-noctx",
+      "venue": "NeurIPS",
+      "year": 2020,
+      "paper_case": null
+    },
+    {
+      "figure_id": "GFgPmhLVhC__fig0001",
+      "bytes": 20980,
+      "reason": "diversity:year:2023,venue-year:EMNLP-2023,venue-ctx:EMNLP-ctx,venue-cc:EMNLP-low",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "GFgPmhLVhC__fig0002",
+      "bytes": 60539,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "GFgPmhLVhC__fig0003",
+      "bytes": 29921,
+      "reason": "diversity:venue-ctx:EMNLP-ctx,venue-cc:EMNLP-high",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "GSHFVNejxs7__fig0001",
+      "bytes": 81279,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2021,
+      "paper_case": null
+    },
+    {
+      "figure_id": "GXZ6cT5cvY__fig0001",
+      "bytes": 38127,
+      "reason": "diversity:venue-year:ICML-2023",
+      "venue": "ICML",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "JOrLz5d7OW__fig0001",
+      "bytes": 120829,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "JOrLz5d7OW__fig0005",
+      "bytes": 89665,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "KM2XzHq2Rm__fig0001",
+      "bytes": 112279,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "KM2XzHq2Rm__fig0002",
+      "bytes": 55985,
+      "reason": "fill:NeurIPS",
+      "venue": "NeurIPS",
+      "year": 2025,
+      "paper_case": null
+    },
+    {
+      "figure_id": "M5knJ7ovgz__fig0001",
+      "bytes": 29737,
+      "reason": "diversity:year:2023,venue-ctx:EMNLP-ctx,overall:low",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Sv4u9PtvT5__fig0001",
+      "bytes": 54049,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Sv4u9PtvT5__fig0002",
+      "bytes": 59639,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "Sv4u9PtvT5__fig0004",
+      "bytes": 32452,
+      "reason": "fill:ICML",
+      "venue": "ICML",
+      "year": 2024,
+      "paper_case": null
+    },
+    {
+      "figure_id": "UixzK8evk5__fig0001",
+      "bytes": 37057,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    },
+    {
+      "figure_id": "UixzK8evk5__fig0002",
+      "bytes": 61127,
+      "reason": "fill:EMNLP",
+      "venue": "EMNLP",
+      "year": 2023,
+      "paper_case": null
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "built_at": "2026-07-08T13:52:04.753576+00:00",
+  "funnel": {
+    "corpus_pdfs": 62694,
+    "papers_with_figures": 1144,
+    "clean_figures": 7609,
+    "human_rated_exportable": 6308,
+    "unrated_figures": 1301,
+    "human_annotated_total": 6355,
+    "annotation_only_no_image": 47,
+    "rated_venue_exportable": {
+      "ACL": 1375,
+      "EMNLP": 1551,
+      "ICML": 1595,
+      "NeurIPS": 1787
+    },
+    "rated_venue_annotated_all": {
+      "ACL": 1422,
+      "EMNLP": 1551,
+      "ICML": 1595,
+      "NeurIPS": 1787
+    },
+    "unrated_venue": {
+      "ACL": 216,
+      "EMNLP": 221,
+      "ICML": 295,
+      "NeurIPS": 569
+    },
+    "parquet_venue_all": {
+      "ACL": 1591,
+      "EMNLP": 1772,
+      "ICML": 1890,
+      "NeurIPS": 2356
+    }
+  },
+  "annotation": {
+    "annotated_figures": 6355,
+    "exportable_figures": 6308,
+    "annotation_records": 20166,
+    "annotated_papers": 1141
+  },
+  "vlm_eval": {
+    "eval_subset_size": 1200,
+    "eval_manifest": "configs/human_eval_subset_1200.jsonl",
+    "eval_dataset_dir": "datasets/eval1200",
+    "sampled_from": "human_rated_exportable (6308)"
+  },
+  "integrity_checks": {
+    "exportable_plus_unrated_equals_clean": true,
+    "exportable_plus_annotation_only_equals_annotated": true,
+    "rated_venue_exportable_sums": true,
+    "rated_venue_annotated_sums": true
+  }
+}
